@@ -1,203 +1,134 @@
 <script setup>
 import { Icon } from '@iconify/vue'
 import logo from '@/assets/images/logo.png'
+
+const recits = [
+  { name: 'frontend.recits.royaume-porto-novo', label: 'Royaume de Porto-Novo' },
+  { name: 'frontend.recits.rois-porto-novo',    label: 'Les Rois de Porto-Novo' },
+  { name: 'frontend.recits.abomey',             label: 'Royaume d’Abomey' },
+  { name: 'frontend.recits.allada',             label: 'Royaume d’Allada' },
+  { name: 'frontend.recits.ketou',              label: 'Royaume de Kétou' },
+]
+
+const dynastie = [
+  { name: 'frontend.dynastie.demesse',    label: 'Dê-Mèssè' },
+  { name: 'frontend.dynastie.ayikpe',     label: 'Dê-Ayikpe' },
+  { name: 'frontend.dynastie.tognon',     label: 'Dê-Tognon' },
+  { name: 'frontend.dynastie.genealogie', label: 'Généalogie' },
+]
 </script>
 
 <template>
+  <footer class="bg-app-dark text-royal-100 mt-20">
+    <div class="max-w-7xl mx-auto px-4 lg:px-8 pt-16 pb-8">
 
-  <footer>
-    <section class="py-10 bg-bleuFonce text-white sm:pt-16 lg:pt-24">
-      <div class="px-2.5 md:px-6 lg:px-16 max-w-7xl mx-auto">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10">
 
-        <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-12 gap-y-12 gap-x-8 xl:gap-x-12">
-          <div class="col-span-2 md:col-span-4 xl:pr-8">
-
-            <img :src="logo" alt="App Logo" class="h-10 w-auto ">
-
-            <img class="w-auto h-9 hidden" src="https://cdn.rareblocks.xyz/collection/celebration/images/logo.svg" alt="" />
-
-            <p class="text-base leading-relaxed mt-7">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
-
-            <a href="#" title="" class="inline-flex items-center justify-center p-2.5  space-x-2 text-white transition-all duration-200 bg-app-principal hover:bg-app-principal/90 focus:bg-app-principal/90 mt-7">
-              <Icon icon="lucide:mail" class="size-auto text-white" />
-              <span>Nous Rejoindre</span>
+        <div class="lg:col-span-4">
+          <router-link :to="{ name: 'frontend.welcome' }" class="inline-flex items-center gap-3">
+            <img :src="logo" alt="Dynastie Royale Dê-Mèssè" class="h-14 w-auto" />
+            <div class="flex flex-col leading-tight">
+              <span class="font-Cormorant text-xl font-semibold text-app-accent">Dynastie Royale</span>
+              <span class="font-Cormorant text-sm italic text-royal-200/70 tracking-wider">Dê-Mèssè · Porto-Novo</span>
+            </div>
+          </router-link>
+          <p class="mt-6 text-sm leading-relaxed text-royal-200/80">
+            Dédiée à la préservation et à la valorisation de l'héritage historique et culturel
+            du Royaume de Porto-Novo et des grandes lignées royales du Bénin.
+          </p>
+          <div class="flex items-center gap-3 mt-6">
+            <a href="#" aria-label="Facebook" class="size-10 flex items-center justify-center border border-royal-700 hover:bg-app-accent hover:border-app-accent hover:text-app-dark transition-colors">
+              <Icon icon="mdi:facebook" class="size-5" />
             </a>
-          </div>
-
-          <div class="lg:col-span-2">
-            <p class="text-base font-semibold">Company</p>
-
-            <ul class="mt-6 space-y-5">
-              <li>
-                <a href="#" title="" class="flex text-sm transition-all duration-200 hover:text-app-principal focus:text-app-principal"> About </a>
-              </li>
-
-              <li>
-                <a href="#" title="" class="flex text-sm transition-all duration-200 hover:text-app-principal focus:text-app-principal"> Features </a>
-              </li>
-
-              <li>
-                <a href="#" title="" class="flex text-sm transition-all duration-200 hover:text-app-principal focus:text-app-principal"> Works </a>
-              </li>
-
-              <li>
-                <a href="#" title="" class="flex text-sm transition-all duration-200 hover:text-app-principal focus:text-app-principal"> Career </a>
-              </li>
-            </ul>
-          </div>
-
-          <div class="lg:col-span-2">
-            <p class="text-base font-semibold">Help</p>
-
-            <ul class="mt-6 space-y-4">
-              <li>
-                <a href="#" title="" class="flex text-sm transition-all duration-200 hover:text-app-principal focus:text-app-principal"> Customer Support </a>
-              </li>
-
-              <li>
-                <a href="#" title="" class="flex text-sm transition-all duration-200 hover:text-app-principal focus:text-app-principal"> Delivery Details </a>
-              </li>
-
-              <li>
-                <a href="#" title="" class="flex text-sm transition-all duration-200 hover:text-app-principal focus:text-app-principal"> Terms & Conditions </a>
-              </li>
-
-              <li>
-                <a href="#" title="" class="flex text-sm transition-all duration-200 hover:text-app-principal focus:text-app-principal"> Privacy Policy </a>
-              </li>
-            </ul>
-          </div>
-
-          <div class="lg:col-span-2">
-            <p class="text-base font-semibold">Resources</p>
-
-            <ul class="mt-6 space-y-5">
-              <li>
-                <a href="#" title="" class="flex text-sm transition-all duration-200 hover:text-app-principal focus:text-app-principal"> Free eBooks </a>
-              </li>
-
-              <li>
-                <a href="#" title="" class="flex text-sm transition-all duration-200 hover:text-app-principal focus:text-app-principal"> Development Tutorial </a>
-              </li>
-
-              <li>
-                <a href="#" title="" class="flex text-sm transition-all duration-200 hover:text-app-principal focus:text-app-principal"> How to - Blog </a>
-              </li>
-
-              <li>
-                <a href="#" title="" class="flex text-sm transition-all duration-200 hover:text-app-principal focus:text-app-principal"> YouTube Playlist </a>
-              </li>
-            </ul>
-          </div>
-
-          <div class="lg:col-span-2">
-            <p class="text-base font-semibold">Extra Links</p>
-
-            <ul class="mt-6 space-y-5">
-              <li>
-                <a href="#" title="" class="flex text-sm transition-all duration-200 hover:text-app-principal focus:text-app-principal"> Customer Support </a>
-              </li>
-
-              <li>
-                <a href="#" title="" class="flex text-sm transition-all duration-200 hover:text-app-principal focus:text-app-principal"> Delivery Details </a>
-              </li>
-
-              <li>
-                <a href="#" title="" class="flex text-sm transition-all duration-200 hover:text-app-principal focus:text-app-principal"> Terms & Conditions </a>
-              </li>
-
-              <li>
-                <a href="#" title="" class="flex text-sm transition-all duration-200 hover:text-app-principal focus:text-app-principal"> Privacy Policy </a>
-              </li>
-            </ul>
+            <a href="#" aria-label="Instagram" class="size-10 flex items-center justify-center border border-royal-700 hover:bg-app-accent hover:border-app-accent hover:text-app-dark transition-colors">
+              <Icon icon="mdi:instagram" class="size-5" />
+            </a>
+            <a href="#" aria-label="Twitter" class="size-10 flex items-center justify-center border border-royal-700 hover:bg-app-accent hover:border-app-accent hover:text-app-dark transition-colors">
+              <Icon icon="mdi:twitter" class="size-5" />
+            </a>
+            <a href="#" aria-label="YouTube" class="size-10 flex items-center justify-center border border-royal-700 hover:bg-app-accent hover:border-app-accent hover:text-app-dark transition-colors">
+              <Icon icon="mdi:youtube" class="size-5" />
+            </a>
           </div>
         </div>
 
-        <hr class="mt-16 mb-10 border-gray-200" />
-
-        <div class="sm:flex sm:items-center sm:justify-between">
-
-          <p class="text-sm opacity-50">© Copyright {{ new Date().getFullYear() }}, All Rights Reserved by ChristianDev</p>
-
-          <ul class="flex items-center mt-5 space-x-3 md:order-3 sm:mt-0">
-
-            <li>
-              <a
-                href="#"
-                title=""
-                class="flex items-center justify-center transition-all duration-200 bg-transparent border border-gray-300 rounded-full w-7 h-7 focus:bg-app-principal hover:text-white focus:text-white hover:bg-app-principal hover:border-app-principal focus:border-app-principal"
+        <div class="lg:col-span-2">
+          <h3 class="font-Cormorant text-lg font-semibold text-app-accent mb-5 uppercase tracking-wider">Dynastie</h3>
+          <ul class="space-y-3">
+            <li v-for="item in dynastie" :key="item.name">
+              <router-link
+                :to="{ name: item.name }"
+                class="text-sm text-royal-200/80 hover:text-app-accent transition-colors"
               >
-                <Icon icon="lucide:twitter" class="w-4 h-4" />
+                {{ item.label }}
+              </router-link>
+            </li>
+          </ul>
+        </div>
+
+        <div class="lg:col-span-3">
+          <h3 class="font-Cormorant text-lg font-semibold text-app-accent mb-5 uppercase tracking-wider">Récits</h3>
+          <ul class="space-y-3">
+            <li v-for="item in recits" :key="item.name">
+              <router-link
+                :to="{ name: item.name }"
+                class="text-sm text-royal-200/80 hover:text-app-accent transition-colors"
+              >
+                {{ item.label }}
+              </router-link>
+            </li>
+          </ul>
+        </div>
+
+        <div class="lg:col-span-3">
+          <h3 class="font-Cormorant text-lg font-semibold text-app-accent mb-5 uppercase tracking-wider">Contact</h3>
+          <ul class="space-y-4 text-sm">
+            <li class="flex items-start gap-3">
+              <Icon icon="mdi:map-marker" class="size-5 text-app-accent shrink-0 mt-0.5" />
+              <span class="text-royal-200/80">Porto-Novo, Bénin</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <Icon icon="mdi:phone" class="size-5 text-app-accent shrink-0 mt-0.5" />
+              <a href="tel:+22900000000" class="text-royal-200/80 hover:text-app-accent transition-colors">
+                +229 (à compléter)
               </a>
             </li>
-
-            <li>
-              <a
-                href="#"
-                title=""
-                class="flex items-center justify-center transition-all duration-200 bg-transparent border border-gray-300 rounded-full w-7 h-7 focus:bg-app-principal hover:text-white focus:text-white hover:bg-app-principal hover:border-app-principal focus:border-app-principal"
-              >
-                <Icon icon="lucide:facebook" class="w-4 h-4" />
+            <li class="flex items-start gap-3">
+              <Icon icon="mdi:email" class="size-5 text-app-accent shrink-0 mt-0.5" />
+              <a href="mailto:contact@dynastieroyale.bj" class="text-royal-200/80 hover:text-app-accent transition-colors break-all">
+                contact@dynastieroyale.bj
               </a>
             </li>
-
-            <li>
-              <a
-                href="#"
-                title=""
-                class="flex items-center justify-center transition-all duration-200 bg-transparent border border-gray-300 rounded-full w-7 h-7 focus:bg-app-principal hover:text-white focus:text-white hover:bg-app-principal hover:border-app-principal focus:border-app-principal"
-              >
-                <Icon icon="lucide:instagram" class="size-4 " />
-              </a>
-            </li>
-
           </ul>
 
-        </div>
-
-      </div>
-    </section>
-
-  </footer>
-
-  <footer class="hidden">
-    <div class="bg-[#353D40] pt-10 lg:pt-12 text-white">
-      <div class="px-2.5 md:px-6 lg:px-16 max-w-7xl mx-auto">
-
-        <div class="flex flex-col lg:flex-row justify-center items-center lg:justify-between mt-10 lg:mt-0">
-
-          <div class="text-center lg:text-start ">
-            <div class="flex flex-col">
-              <div class="flex items-center justify-start space-x-4 font-bold mb-1">
-                <a href=""> Accueil </a>
-                <span> - </span>
-                <a href=""> Nos services </a>
-                <span> - </span>
-                <a href=""> A propos </a>
-                <span> - </span>
-                <a href=""> Contact </a>
-              </div>
-              <span class="block">© <a href="" class="font-semibold"> MyAppStarter </a> - 2025  |  Tous droits réservés </span>
+          <form @submit.prevent class="mt-6">
+            <label class="block text-xs uppercase tracking-wider text-app-accent mb-2 font-semibold">Newsletter</label>
+            <div class="flex">
+              <input
+                type="email"
+                placeholder="Votre email"
+                class="flex-1 bg-royal-900 border border-royal-700 px-3 py-2.5 text-sm text-royal-100 placeholder-royal-200/40 focus:outline-none focus:border-app-accent"
+              />
+              <button
+                type="submit"
+                class="bg-app-accent text-app-dark px-4 hover:bg-royal-300 transition-colors"
+                aria-label="S'abonner"
+              >
+                <Icon icon="mdi:arrow-right" class="size-5" />
+              </button>
             </div>
-          </div>
-
-          <div class="flex items-center justify-center space-x-4">
-            <a href="#" target="_blank">
-              <Icon icon="bxl:facebook"  class="size-12  bg-white text-app-principal rounded p-2 " />
-            </a>
-            <a href="#" target="_blank">
-              <Icon icon="bxl:linkedin"  class="size-12  bg-white text-app-principal rounded p-2 " />
-            </a>
-          </div>
-
+          </form>
         </div>
+
       </div>
 
-      <div class="flex px-2.5 md:px-6 lg:px-16 max-w-7xl mx-auto pt-10 lg:pt-12">
+      <hr class="border-royal-700/40 mt-12 mb-6" />
+
+      <div class="flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-royal-200/60">
+        <p>© {{ new Date().getFullYear() }} Dynastie Royale Dê-Mèssè. Tous droits réservés.</p>
+        <p class="font-Cormorant italic">« Au cœur de notre héritage, réside la grandeur. »</p>
       </div>
+
     </div>
   </footer>
 </template>
-
-<script>
-</script>

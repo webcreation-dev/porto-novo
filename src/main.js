@@ -11,7 +11,7 @@ import { setupAOS } from '@/helpers/aos.js'
 import App from './App.vue'
 import router from './router'
 
-const appName = 'VUEJS STARTER';
+const appName = 'Dynastie Royale Dê-Mèssè';
 
 
 const app = createApp(App)

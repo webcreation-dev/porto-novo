@@ -16,6 +16,8 @@ import DataTable from 'primevue/datatable';
 import Column from 'primevue/column';
 import Chart from 'primevue/chart';
 import Drawer from 'primevue/drawer';
+import MegaMenu from 'primevue/megamenu';
+import Menubar from 'primevue/menubar';
 
 import { Dialog } from 'primevue'
 
@@ -46,5 +48,7 @@ export function setupPrimeVue(app) {
   app.component('Column', Column);
   app.component('Chart', Chart);
   app.component('Drawer', Drawer);
+  app.component('MegaMenu', MegaMenu);
+  app.component('Menubar', Menubar);
 }
 

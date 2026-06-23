@@ -322,7 +322,7 @@ function isInPages() {
                 <router-link
                   v-for="item in dynastieDocs"
                   :key="item.name"
-                  :to="{ name: item.name }"
+                  :to="{ name: item.name }"  
                   @click="mobileOpen = false"
                   class="block py-2 text-sm text-app-dark hover:text-app-primary"
                 >{{ item.label }}</router-link>

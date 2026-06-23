@@ -147,6 +147,38 @@ function isInPages() {
             </div>
           </div>
 
+          <!-- Dropdown Archives -->
+          <div class="relative group">
+            <button
+              class="px-4 py-2 text-sm font-medium hover:text-app-primary transition-colors flex items-center gap-1 text-app-dark"
+            >
+              Archives
+              <Icon icon="mdi:chevron-down" class="size-4 transition-transform group-hover:rotate-180" />
+            </button>
+            <div class="absolute left-0 top-full pt-3 invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-all duration-200 w-72">
+              <div class="bg-white rounded-lg shadow-2xl border border-royal-200 py-2">
+                <router-link
+                  v-for="item in dynastieDocs"
+                  :key="item.name"
+                  :to="{ name: item.name }"
+                  class="flex items-center gap-3 px-4 py-2.5 text-sm text-app-dark hover:bg-royal-50 hover:text-app-primary transition-colors"
+                >
+                  <Icon :icon="item.icon" class="size-4 text-app-accent shrink-0" />
+                  {{ item.label }}
+                </router-link>
+              </div>
+            </div>
+          </div>
+
+          <!-- Patrimoine -->
+          <router-link
+            :to="{ name: 'frontend.sites' }"
+            :class="route.name === 'frontend.sites' ? 'text-app-primary' : 'text-app-dark'"
+            class="px-4 py-2 text-sm font-medium hover:text-app-primary transition-colors"
+          >
+            Patrimoine
+          </router-link>
+
           <!-- Dropdown Histoires & Récits -->
           <div class="relative group">
             <button
@@ -297,6 +329,26 @@ function isInPages() {
               </div>
             </AccordionContent>
           </AccordionPanel>
+
+          <AccordionPanel value="archives">
+            <AccordionHeader class="!px-4 !py-3 !text-app-dark hover:!text-app-primary">Archives</AccordionHeader>
+            <AccordionContent>
+              <div class="px-4">
+                <router-link
+                  v-for="item in dynastieDocs"
+                  :key="item.name"
+                  :to="{ name: item.name }"
+                  @click="mobileOpen = false"
+                  class="flex items-center gap-2 py-2 text-sm text-app-dark hover:text-app-primary"
+                >
+                  <Icon :icon="item.icon" class="size-4 text-app-accent" />
+                  {{ item.label }}
+                </router-link>
+              </div>
+            </AccordionContent>
+          </AccordionPanel>
+
+          <router-link :to="{ name: 'frontend.sites' }" @click="mobileOpen = false" class="py-3 px-4 border-b border-royal-200 hover:text-app-primary text-app-dark">Patrimoine</router-link>
 
           <AccordionPanel value="1">
             <AccordionHeader class="!px-4 !py-3 !text-app-dark hover:!text-app-primary">Histoires & Récits</AccordionHeader>

@@ -1,13 +1,17 @@
 <script setup>
 import { ref, onMounted, onUnmounted, computed } from 'vue'
 import { Icon } from '@iconify/vue'
-import abomey from '@/assets/images/recits/abomey.jpg'
-import teAgbanlin from '@/assets/images/recits/te-agbanlin.jpg'
-import hakpon from '@/assets/images/recits/hakpon-3.jpg'
+import b1 from '@/assets/images/old/b1.jpg'
+import b2 from '@/assets/images/old/b2.jpg'
+import b3 from '@/assets/images/old/b3.jpg'
+import b4 from '@/assets/images/old/b4.jpg'
+import b5 from '@/assets/images/old/b5.jpg'
+import b6 from '@/assets/images/old/b6.jpg'
+import b7 from '@/assets/images/old/b7.jpg'
 
 const slides = [
   {
-    image: abomey,
+    image: b1,
     eyebrow: 'Dynastie Royale Dê-Mèssè',
     title: 'Au cœur de notre héritage, réside la grandeur.',
     subtitle: 'Découvrez l’héritage vivant d’une lignée de légendes — sagesse, prospérité, leadership.',
@@ -15,7 +19,7 @@ const slides = [
     secondaryCta: { label: 'Histoires & récits', to: { name: 'frontend.recits.royaume-porto-novo' } },
   },
   {
-    image: teAgbanlin,
+    image: b2,
     eyebrow: 'Royaume de Hogbonou · 17ᵉ siècle',
     title: 'Roi Tê-Agbanlin, fondateur du royaume.',
     subtitle: 'Dix-huit rois lui ont succédé jusqu’à la colonisation. Une mémoire transmise de génération en génération.',
@@ -23,12 +27,44 @@ const slides = [
     secondaryCta: { label: 'Les rois de Porto-Novo', to: { name: 'frontend.recits.rois-porto-novo' } },
   },
   {
-    image: hakpon,
+    image: b3,
     eyebrow: 'Patrimoine vivant',
     title: 'Une lignée, une mémoire, une nation.',
     subtitle: 'Préserver et transmettre l’histoire des grandes lignées royales du Bénin pour les générations futures.',
     primaryCta: { label: 'Documents historiques', to: { name: 'frontend.dynastie.documents' } },
     secondaryCta: { label: 'Nous contacter', to: { name: 'frontend.contact' } },
+  },
+  {
+    image: b4,
+    eyebrow: 'Dynastie Royale Dê-Mèssè',
+    title: 'Au cœur de notre héritage, réside la grandeur.',
+    subtitle: 'Découvrez l’héritage vivant d’une lignée de légendes — sagesse, prospérité, leadership.',
+    primaryCta: { label: 'Découvrir la dynastie', to: { name: 'frontend.dynastie.demesse' } },
+    secondaryCta: { label: 'Histoires & récits', to: { name: 'frontend.recits.royaume-porto-novo' } },
+  },
+  {
+    image: b5,
+    eyebrow: 'Royaume de Hogbonou · 17ᵉ siècle',
+    title: 'Roi Tê-Agbanlin, fondateur du royaume.',
+    subtitle: 'Dix-huit rois lui ont succédé jusqu’à la colonisation. Une mémoire transmise de génération en génération.',
+    primaryCta: { label: 'Lire le récit', to: { name: 'frontend.recits.te-agbanlin' } },
+    secondaryCta: { label: 'Les rois de Porto-Novo', to: { name: 'frontend.recits.rois-porto-novo' } },
+  },
+  {
+    image: b6,
+    eyebrow: 'Patrimoine vivant',
+    title: 'Une lignée, une mémoire, une nation.',
+    subtitle: 'Préserver et transmettre l’histoire des grandes lignées royales du Bénin pour les générations futures.',
+    primaryCta: { label: 'Documents historiques', to: { name: 'frontend.dynastie.documents' } },
+    secondaryCta: { label: 'Nous contacter', to: { name: 'frontend.contact' } },
+  },
+  {
+    image: b7,
+    eyebrow: 'Dynastie Royale Dê-Mèssè',
+    title: 'Au cœur de notre héritage, réside la grandeur.',
+    subtitle: 'Découvrez l’héritage vivant d’une lignée de légendes — sagesse, prospérité, leadership.',
+    primaryCta: { label: 'Découvrir la dynastie', to: { name: 'frontend.dynastie.demesse' } },
+    secondaryCta: { label: 'Histoires & récits', to: { name: 'frontend.recits.royaume-porto-novo' } },
   },
 ]
 

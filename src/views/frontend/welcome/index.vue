@@ -16,23 +16,23 @@ import imgHakpon from '@/assets/images/recits/hakpon-3.jpg'
 
 const lignees = [
   {
-    name: 'Dê-Mèssè',
-    period: '1752 — 1757',
-    description: 'La lignée fondatrice qui donne son nom à notre dynastie. Une mémoire vivante transmise depuis près de trois siècles.',
+    name: 'Dê-Ayikpé',
+    period: 'Branche Royale',
+    description: 'L’une des grandes branches royales de Porto-Novo, fondée par le fils aîné royal de Démèssè.',
     icon: 'mdi:crown',
-    to: { name: 'frontend.dynastie.demesse' },
-  },
-  {
-    name: 'Dê-Ayikpe',
-    period: 'Lignée historique',
-    description: 'L’une des grandes branches royales de Porto-Novo, gardienne de traditions et de récits ancestraux.',
-    icon: 'mdi:crown-outline',
     to: { name: 'frontend.dynastie.ayikpe' },
   },
   {
-    name: 'Dê-Tognon',
-    period: 'Lignée historique',
-    description: 'Une lignée ancrée dans l’histoire du royaume de Hogbonou et dans la mémoire collective du peuple béninois.',
+    name: 'Dê-Toyon',
+    period: 'Branche Royale',
+    description: 'La lignée du benjamin royal, ancrée dans l’histoire du royaume de Hogbonou et du peuple béninois.',
+    icon: 'mdi:crown',
+    to: { name: 'frontend.dynastie.tognon' },
+  },
+  {
+    name: 'Dè-Mèkpon',
+    period: 'Branche Royale',
+    description: 'Fils de Dè-Toyon devenu roi à son tour. Chaque branche a une histoire importante.',
     icon: 'mdi:crown-outline',
     to: { name: 'frontend.dynastie.tognon' },
   },
@@ -112,9 +112,9 @@ const documents = [
             et des grandes lignées royales du Bénin.
           </p>
           <p class="text-app-muted leading-relaxed mb-8">
-            Depuis Tê-Agbanlin, fondateur du royaume au 17ᵉ siècle, dix-huit rois se sont succédé jusqu'à
-            la colonisation. Chaque génération a transmis cette mémoire — et c'est cette flamme que nous
-            entretenons aujourd'hui pour les générations futures.
+            Depuis Tê-Agbanlin, fondateur du royaume au 17ᵉ siècle, dix-huit rois lui ont succédés jusqu'à
+          la colonisation. Démèssè, premier de notre dynastie, a eu 11 enfants dont 2 ont été rois (Dè-Ayikpé et Dè-Toyon).
+          De génération en génération, chaque collectivité a transmis cette mémoire que nous entretenons aujourd'hui pour les générations futures.
           </p>
           <router-link
             :to="{ name: 'frontend.apropos' }"
@@ -133,9 +133,9 @@ const documents = [
   <section class="bg-royal-50 py-10 md:py-20">
     <div class="max-w-7xl mx-auto px-4 lg:px-8">
       <SectionTitle
-        eyebrow="Les grandes lignées"
-        title="Trois lignées, une même dynastie"
-        description="Découvrez les trois branches royales qui composent l'héritage Dê-Mèssè et qui rayonnent depuis des siècles."
+        eyebrow="Les Collectivités"
+        title="Les Branches de Démèssè"
+        description="Démèssè est le fondateur de la dynastie. Ses enfants ont formé les collectivités et branches qui perpétuent son héritage."
       />
       <div class="grid md:grid-cols-3 gap-8" data-aos="fade-up" data-aos-duration="900">
         <LigneeCard

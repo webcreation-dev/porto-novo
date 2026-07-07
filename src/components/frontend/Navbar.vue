@@ -331,7 +331,7 @@ function isInSection(prefix) {
                   <span class="text-base">{{ item.flag }}</span>
                   {{ item.label }}
                 </router-link>
-              </div>
+              </div> 
             </AccordionContent>
           </AccordionPanel>
         </Accordion>

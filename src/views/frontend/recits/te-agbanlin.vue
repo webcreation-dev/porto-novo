@@ -18,7 +18,7 @@ const keyFacts = [
 
 const figures = [
   { name: 'Kokpon Adjahoutô',          period: 'Père de Tê-Agbanlin', role: 'Roi d’Allada',    description: 'Fondateur du royaume d’Allada, dont est issu Tê-Agbanlin.' },
-  { name: 'Dê-Mèssè',                   period: '1752 — 1757',         role: 'Successeur',      description: 'L’une des figures de la dynastie, dont le nom est aujourd’hui porté par notre lignée.' },
+  { name: 'Dê-Messe',                   period: '1752 — 1757',         role: 'Successeur',      description: 'L’une des figures de la dynastie, dont le nom est aujourd’hui porté par notre lignée.' },
   { name: 'Dê-Kpodagba Lokpon 8',      period: 'Aujourd’hui',         role: 'Roi régnant',     description: 'Occupe actuellement le trône de Tê-Agbanlin et perpétue la dynastie.' },
 ]
 
@@ -40,6 +40,6 @@ const documents = [
     :key-facts="keyFacts"
     :figures="figures"
     :documents="documents"
-    :next="{ label: 'Dê-Kpotozounme Hakpon 3', to: { name: 'frontend.recits.hakpon-3' } }"
+    :next="{ label: 'Dê-Kpotozounme Hakpon 3', to: { name: 'frontend.recits.de-hakpon' } }"
   />
 </template>

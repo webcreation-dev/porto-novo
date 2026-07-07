@@ -27,7 +27,7 @@ const keyFacts = [
     image-alt="Royaume d’Abomey"
     :story="story"
     :key-facts="keyFacts"
-    :prev="{ label: 'Les Rois de Porto-Novo', to: { name: 'frontend.recits.rois-porto-novo' } }"
+    :prev="{ label: 'Les Rois de Porto-Novo', to: { name: 'frontend.recits.te-agbanlin' } }"
     :next="{ label: 'Royaume d’Allada',       to: { name: 'frontend.recits.allada' } }"
   />
 </template>

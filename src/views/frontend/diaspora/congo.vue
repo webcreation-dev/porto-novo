@@ -2,7 +2,7 @@
 import DiasporaPage from '@/components/frontend/DiasporaPage.vue'
 
 const intro = [
-  'La diaspora de la Dynastie Royale Dê-Mèssè au Congo entretient des liens étroits et anciens avec la dynastie. Implantée principalement à Brazzaville et Pointe-Noire, la communauté congolaise est l’une des plus actives en Afrique centrale.',
+  'La diaspora de la Dynastie Royale Dê-Messe au Congo entretient des liens étroits et anciens avec la dynastie. Implantée principalement à Brazzaville et Pointe-Noire, la communauté congolaise est l’une des plus actives en Afrique centrale.',
   'Forte de relations historiques et culturelles solides entre le Bénin et le Congo, l’antenne congolaise est un relais important pour la transmission du patrimoine dynastique et l’organisation d’événements communs avec d’autres communautés africaines.',
   '[TODO contenu client] Histoire détaillée et événements marquants de la communauté à compléter.',
 ]

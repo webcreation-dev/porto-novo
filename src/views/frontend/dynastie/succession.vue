@@ -21,7 +21,7 @@ const highlights = [
 
 const related = [
   { title: 'Généalogie de Tê-Agbanlin',   year: 'Référence', pdfUrl: '/pdf/Genealogie-Te-Agbanlin_F4.pdf', icon: 'mdi:family-tree' },
-  { title: 'Histoire de la lignée Dê-Mèssè', year: 'Référence', pdfUrl: '/pdf/DE-MESSE_Histoire.pdf',     icon: 'mdi:book-open-variant' },
+  { title: 'Histoire de la lignée Dê-Messe', year: 'Référence', pdfUrl: '/pdf/DE-MESSE_Histoire.pdf',     icon: 'mdi:book-open-variant' },
   { title: 'Conseil des Sages',           year: '1993',      pdfUrl: '/pdf/Conseil_sae_1993.pdf',         icon: 'mdi:account-group-outline' },
   { title: 'Réunion des Sages',           year: '1998',      pdfUrl: '/pdf/Reunion_Sage_1998.pdf',        icon: 'mdi:account-tie-voice' },
 ]

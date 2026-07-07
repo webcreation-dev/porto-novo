@@ -5,7 +5,7 @@ import SectionTitle from '@/components/frontend/SectionTitle.vue'
 import DocumentCard from '@/components/frontend/DocumentCard.vue'
 
 defineProps({
-  name:        { type: String, required: true },           // "Dê-Mèssè"
+  name:        { type: String, required: true },           // "Dê-Messe"
   period:      { type: String, default: null },             // "1752 — 1757"
   intro:       { type: String, required: true },           // 1-2 phrases d'accroche
   image:       { type: String, default: null },            // image principale

@@ -3,18 +3,18 @@ import { Icon } from '@iconify/vue'
 import logo from '@/assets/images/logo.png'
 
 const recits = [
-  { name: 'frontend.recits.royaume-porto-novo', label: 'Royaume de Porto-Novo' },
-  { name: 'frontend.recits.rois-porto-novo',    label: 'Les Rois de Porto-Novo' },
+  { name: 'frontend.recits.royaume-hogbonou', label: 'Royaume de Porto-Novo' },
+  { name: 'frontend.recits.te-agbanlin',    label: 'Les Rois de Porto-Novo' },
   { name: 'frontend.recits.abomey',             label: 'Royaume d’Abomey' },
   { name: 'frontend.recits.allada',             label: 'Royaume d’Allada' },
   { name: 'frontend.recits.ketou',              label: 'Royaume de Kétou' },
 ]
 
 const dynastie = [
-  { name: 'frontend.dynastie.demesse',    label: 'Dê-Mèssè' },
+  { name: 'frontend.dynastie.demesse',    label: 'Dê-Messe' },
   { name: 'frontend.dynastie.ayikpe',     label: 'Dê-Ayikpe' },
   { name: 'frontend.dynastie.tognon',     label: 'Dê-Tognon' },
-  { name: 'frontend.dynastie.genealogie', label: 'Généalogie' },
+  { name: 'frontend.dynastie.demesse', label: 'Généalogie' },
 ]
 </script>
 
@@ -26,10 +26,10 @@ const dynastie = [
 
         <div class="lg:col-span-4">
           <router-link :to="{ name: 'frontend.welcome' }" class="inline-flex items-center gap-3">
-            <img :src="logo" alt="Dynastie Royale Dê-Mèssè" class="h-14 w-auto" />
+            <img :src="logo" alt="Dynastie Royale Dê-Messe" class="h-14 w-auto" />
             <div class="flex flex-col leading-tight">
               <span class="font-Cormorant text-xl font-semibold text-app-accent">Dynastie Royale</span>
-              <span class="font-Cormorant text-sm italic text-royal-200/70 tracking-wider">Dê-Mèssè · Porto-Novo</span>
+              <span class="font-Cormorant text-sm italic text-royal-200/70 tracking-wider">Dê-Messe · Porto-Novo</span>
             </div>
           </router-link>
           <p class="mt-6 text-sm leading-relaxed text-royal-200/80">
@@ -125,7 +125,7 @@ const dynastie = [
       <hr class="border-royal-700/40 mt-12 mb-6" />
 
       <div class="flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-royal-200/60">
-        <p>© {{ new Date().getFullYear() }} Dynastie Royale Dê-Mèssè. Tous droits réservés.</p>
+        <p>© {{ new Date().getFullYear() }} Dynastie Royale Dê-Messe. Tous droits réservés.</p>
         <p class="font-Cormorant italic">« Au cœur de notre héritage, réside la grandeur. »</p>
       </div>
 

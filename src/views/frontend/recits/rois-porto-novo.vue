@@ -21,7 +21,7 @@ const figures = [
   { name: '1. Dê Hakpon',   role: 'Successeur de Tê-Agbanlin' },
   { name: '2. Dê Lokpon',   role: 'Roi de Hogbonou' },
   { name: '3. Dê Houdé',    role: 'Roi de Hogbonou' },
-  { name: '4. Dê Mèssè',    period: '1752 — 1757', role: 'Roi éponyme de la dynastie Dê-Mèssè' },
+  { name: '4. Dê Mèssè',    period: '1752 — 1757', role: 'Roi éponyme de la dynastie Dê-Messe' },
   { name: '5. Dê Houyi',    role: 'Roi de Hogbonou' },
   { name: '6. Dê Gbégnon',  role: 'Roi de Hogbonou' },
   { name: '7. Dê Ayikpé',   role: 'Roi éponyme de la lignée Dê-Ayikpe' },
@@ -58,7 +58,7 @@ const documents = [
     :key-facts="keyFacts"
     :figures="figures"
     :documents="documents"
-    :prev="{ label: 'Royaume de Porto-Novo', to: { name: 'frontend.recits.royaume-porto-novo' } }"
+    :prev="{ label: 'Royaume de Porto-Novo', to: { name: 'frontend.recits.royaume-hogbonou' } }"
     :next="{ label: 'Royaume d’Abomey',      to: { name: 'frontend.recits.abomey' } }"
   />
 </template>

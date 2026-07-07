@@ -12,11 +12,11 @@ import b7 from '@/assets/images/old/b7.jpg'
 const slides = [
   {
     image: b1,
-    eyebrow: 'Dynastie Royale Dê-Mèssè',
+    eyebrow: 'Dynastie Royale Dê-Messe',
     title: 'Au cœur de notre héritage, réside la grandeur.',
     subtitle: 'Découvrez l’héritage vivant d’une lignée de légendes — sagesse, prospérité, leadership.',
     primaryCta: { label: 'Découvrir la dynastie', to: { name: 'frontend.dynastie.demesse' } },
-    secondaryCta: { label: 'Histoires & récits', to: { name: 'frontend.recits.royaume-porto-novo' } },
+    secondaryCta: { label: 'Histoires & récits', to: { name: 'frontend.recits.royaume-hogbonou' } },
   },
   {
     image: b2,
@@ -24,23 +24,23 @@ const slides = [
     title: 'Roi Tê-Agbanlin, fondateur du royaume.',
     subtitle: 'Dix-huit rois lui ont succédé jusqu’à la colonisation. Une mémoire transmise de génération en génération.',
     primaryCta: { label: 'Lire le récit', to: { name: 'frontend.recits.te-agbanlin' } },
-    secondaryCta: { label: 'Les rois de Porto-Novo', to: { name: 'frontend.recits.rois-porto-novo' } },
+    secondaryCta: { label: 'Les rois de Porto-Novo', to: { name: 'frontend.recits.te-agbanlin' } },
   },
   {
     image: b3,
     eyebrow: 'Patrimoine vivant',
     title: 'Une lignée, une mémoire, une nation.',
     subtitle: 'Préserver et transmettre l’histoire des grandes lignées royales du Bénin pour les générations futures.',
-    primaryCta: { label: 'Documents historiques', to: { name: 'frontend.dynastie.documents' } },
+    primaryCta: { label: 'Documents historiques', to: { name: 'frontend.archives' } },
     secondaryCta: { label: 'Nous contacter', to: { name: 'frontend.contact' } },
   },
   {
     image: b4,
-    eyebrow: 'Dynastie Royale Dê-Mèssè',
+    eyebrow: 'Dynastie Royale Dê-Messe',
     title: 'Au cœur de notre héritage, réside la grandeur.',
     subtitle: 'Découvrez l’héritage vivant d’une lignée de légendes — sagesse, prospérité, leadership.',
     primaryCta: { label: 'Découvrir la dynastie', to: { name: 'frontend.dynastie.demesse' } },
-    secondaryCta: { label: 'Histoires & récits', to: { name: 'frontend.recits.royaume-porto-novo' } },
+    secondaryCta: { label: 'Histoires & récits', to: { name: 'frontend.recits.royaume-hogbonou' } },
   },
   {
     image: b5,
@@ -48,23 +48,23 @@ const slides = [
     title: 'Roi Tê-Agbanlin, fondateur du royaume.',
     subtitle: 'Dix-huit rois lui ont succédé jusqu’à la colonisation. Une mémoire transmise de génération en génération.',
     primaryCta: { label: 'Lire le récit', to: { name: 'frontend.recits.te-agbanlin' } },
-    secondaryCta: { label: 'Les rois de Porto-Novo', to: { name: 'frontend.recits.rois-porto-novo' } },
+    secondaryCta: { label: 'Les rois de Porto-Novo', to: { name: 'frontend.recits.te-agbanlin' } },
   },
   {
     image: b6,
     eyebrow: 'Patrimoine vivant',
     title: 'Une lignée, une mémoire, une nation.',
     subtitle: 'Préserver et transmettre l’histoire des grandes lignées royales du Bénin pour les générations futures.',
-    primaryCta: { label: 'Documents historiques', to: { name: 'frontend.dynastie.documents' } },
+    primaryCta: { label: 'Documents historiques', to: { name: 'frontend.archives' } },
     secondaryCta: { label: 'Nous contacter', to: { name: 'frontend.contact' } },
   },
   {
     image: b7,
-    eyebrow: 'Dynastie Royale Dê-Mèssè',
+    eyebrow: 'Dynastie Royale Dê-Messe',
     title: 'Au cœur de notre héritage, réside la grandeur.',
     subtitle: 'Découvrez l’héritage vivant d’une lignée de légendes — sagesse, prospérité, leadership.',
     primaryCta: { label: 'Découvrir la dynastie', to: { name: 'frontend.dynastie.demesse' } },
-    secondaryCta: { label: 'Histoires & récits', to: { name: 'frontend.recits.royaume-porto-novo' } },
+    secondaryCta: { label: 'Histoires & récits', to: { name: 'frontend.recits.royaume-hogbonou' } },
   },
 ]
 
@@ -116,7 +116,7 @@ const activeSlide = computed(() => slides[current.value])
         :class="idx === current ? 'scale-110' : 'scale-100'"
         :style="{ backgroundImage: `url(${slide.image})` }"
       ></div>
-      <div class="absolute inset-0 bg-gradient-to-r from-app-dark/90 via-app-dark/70 to-app-primary/40"></div>
+      <div class="absolute inset-0 bg-gradient-to-r from-app-dark/60 via-app-dark/40 to-app-primary/10"></div>
       <div class="absolute inset-0 bg-[radial-gradient(circle_at_25%_50%,rgba(201,162,39,0.15),transparent_60%)]"></div>
     </div>
 

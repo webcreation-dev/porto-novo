@@ -16,61 +16,61 @@ import imgHakpon from '@/assets/images/recits/hakpon-3.jpg'
 
 const lignees = [
   {
-    name: 'Dê-Ayikpé',
-    period: 'Branche Royale',
-    description: 'L’une des grandes branches royales de Porto-Novo, fondée par le fils aîné royal de Démèssè.',
+    name: 'Dê-Ayikpe',
+    period: 'Branche Royale Aînée',
+    description: 'L\'une des grandes branches royales de Porto-Novo, fondée par le fils aîné de Dê-Messe.',
     icon: 'mdi:crown',
     to: { name: 'frontend.dynastie.ayikpe' },
   },
   {
-    name: 'Dê-Toyon',
-    period: 'Branche Royale',
-    description: 'La lignée du benjamin royal, ancrée dans l’histoire du royaume de Hogbonou et du peuple béninois.',
+    name: 'Dê-Tognon',
+    period: 'Branche Royale Benjamine',
+    description: 'La lignée du benjamin royal, ancrée dans l\'histoire du royaume de Hogbonou.',
     icon: 'mdi:crown',
     to: { name: 'frontend.dynastie.tognon' },
   },
   {
-    name: 'Dè-Mèkpon',
-    period: 'Branche Royale',
-    description: 'Fils de Dè-Toyon devenu roi à son tour. Chaque branche a une histoire importante.',
+    name: 'Dê-Mikponê',
+    period: 'Lignée Souveraine',
+    description: 'Une autre branche fondatrice importante qui porte fièrement l\'héritage de notre dynastie.',
     icon: 'mdi:crown-outline',
-    to: { name: 'frontend.dynastie.tognon' },
+    to: { name: 'frontend.dynastie.mikpone' },
   },
 ]
 
 const recitsVedette = [
   {
     image: imgTeAgbanlin,
-    title: 'Roi Tê-Agbanlin',
-    excerpt: 'Fondateur du royaume de Hogbonou au 17ᵉ siècle. Dix-huit rois lui succèderont jusqu’à la colonisation.',
-    category: 'Personnage',
+    title: 'Tê-Agbanlin',
+    excerpt: 'Fondateur du royaume de Hogbonou au 17ᵉ siècle. Dix-huit rois lui succèderont jusqu\'à la colonisation.',
+    category: 'Personnage Historique',
     to: { name: 'frontend.recits.te-agbanlin' },
   },
   {
-    image: imgHakpon,
-    title: 'Dê-Kpotozounme Hakpon 3',
-    excerpt: 'Une figure marquante de la dynastie, dont le règne et l’héritage continuent d’inspirer la mémoire royale.',
-    category: 'Personnage',
-    to: { name: 'frontend.recits.hakpon-3' },
+    image: 'https://placehold.co/600x800/2a3129/c9a227?text=De-Messe',
+    title: 'Dê-Messe',
+    excerpt: 'Le fondateur de notre dynastie, dont les descendants forment aujourd\'hui nos collectivités et branches royales.',
+    category: 'Fondateur',
+    to: { name: 'frontend.dynastie.demesse' },
   },
   {
-    image: imgPortoNovo,
-    title: 'Les Rois de Porto-Novo',
-    excerpt: 'La succession des rois de Porto-Novo : Dê Hakpon, Dê Lokpon, Dê Houdé, Dê Mèssè, Dê Houyi… une chaîne ininterrompue.',
-    category: 'Lignage',
-    to: { name: 'frontend.recits.rois-porto-novo' },
+    image: 'https://placehold.co/600x800/2a3129/c9a227?text=De-Ayikpe',
+    title: 'Dê-Ayikpe',
+    excerpt: 'Branche aînée de la dynastie, poursuivant l\'héritage royal à travers les âges.',
+    category: 'Lignée Royale',
+    to: { name: 'frontend.dynastie.ayikpe' },
   },
 ]
 
 const royaumes = [
-  { image: imgPortoNovo, title: 'Royaume de Porto-Novo', excerpt: 'Hogbonou, fondé par Tê-Agbanlin. Le berceau de notre dynastie.', category: 'Royaume', to: { name: 'frontend.recits.royaume-porto-novo' } },
+  { image: imgPortoNovo, title: 'Royaume de Porto-Novo', excerpt: 'Hogbonou, fondé par Tê-Agbanlin. Le berceau de notre dynastie.', category: 'Royaume', to: { name: 'frontend.recits.royaume-hogbonou' } },
   { image: imgAbomey,    title: 'Royaume d’Abomey',     excerpt: 'Le puissant royaume du Danxomè, célèbre pour ses rois et son patrimoine artistique.', category: 'Royaume', to: { name: 'frontend.recits.abomey' } },
   { image: imgAllada,    title: 'Royaume d’Allada',     excerpt: 'Berceau historique fondé par le Roi Kokpon Adjahoutô, père de Tê-Agbanlin.', category: 'Royaume', to: { name: 'frontend.recits.allada' } },
   { image: imgKetou,     title: 'Royaume de Kétou',     excerpt: 'L’un des grands royaumes yoruba du Bénin, riche d’une histoire millénaire.', category: 'Royaume', to: { name: 'frontend.recits.ketou' } },
 ]
 
 const documents = [
-  { title: 'Histoire de la lignée Dê-Mèssè',          year: 'Référence',  pdfUrl: '/pdf/DE-MESSE_Histoire.pdf',                icon: 'mdi:book-open-variant' },
+  { title: 'Histoire de la lignée Dê-Messe',          year: 'Référence',  pdfUrl: '/pdf/DE-MESSE_Histoire.pdf',                icon: 'mdi:book-open-variant' },
   { title: 'Conseil des Sages',                       year: '1993',       pdfUrl: '/pdf/Conseil_sae_1993.pdf',                  icon: 'mdi:account-group-outline' },
   { title: 'Réunion des Sages',                       year: '1998',       pdfUrl: '/pdf/Reunion_Sage_1998.pdf',                 icon: 'mdi:account-tie-voice' },
   { title: 'Rapport d’élection du Roi de Porto-Novo', year: 'Officiel',   pdfUrl: '/pdf/Rapport_Election_Roi_Porto-Novo.pdf',   icon: 'mdi:scroll' },
@@ -90,13 +90,13 @@ const documents = [
           <div class="absolute -inset-4 bg-app-accent/20 -rotate-2"></div>
           <div class="relative bg-white p-10 lg:p-16 shadow-xl">
             <div class="flex items-center justify-center mb-6">
-              <img :src="logo" alt="Dynastie Royale Dê-Mèssè" class="h-32 w-auto" />
+              <img :src="logo" alt="Dynastie Royale Dê-Messe" class="h-32 w-auto" />
             </div>
             <p class="text-center font-Cormorant text-2xl text-app-primary italic leading-snug">
               « Au cœur de notre héritage, réside la grandeur. »
             </p>
             <div class="w-16 h-0.5 bg-app-accent mx-auto mt-6"></div>
-            <p class="text-center text-xs uppercase tracking-[0.3em] text-app-muted mt-4">Dê-Mèssè · 1752 — 1757</p>
+            <p class="text-center text-xs uppercase tracking-[0.3em] text-app-muted mt-4">Dê-Messe · 1752 — 1757</p>
           </div>
         </div>
 
@@ -107,13 +107,13 @@ const documents = [
           </h2>
           <div class="w-20 h-1 bg-app-accent mb-8"></div>
           <p class="text-app-dark/80 text-lg leading-relaxed mb-6">
-            La <strong class="text-app-primary">Dynastie Royale Dê-Mèssè</strong> œuvre à la préservation
+            La <strong class="text-app-primary">Dynastie Royale Dê-Messe</strong> œuvre à la préservation
             et à la valorisation de l'héritage historique et culturel du Royaume de Porto-Novo (Hogbonou)
             et des grandes lignées royales du Bénin.
           </p>
           <p class="text-app-muted leading-relaxed mb-8">
             Depuis Tê-Agbanlin, fondateur du royaume au 17ᵉ siècle, dix-huit rois lui ont succédés jusqu'à
-          la colonisation. Démèssè, premier de notre dynastie, a eu 11 enfants dont 2 ont été rois (Dè-Ayikpé et Dè-Toyon).
+          la colonisation. Dê-Messe, le fondateur de la dynastie, a eu des enfants qui ont formé les collectivités et branches de la dynastie (Dê-Ayikpe, Dê-Tognon, Dê-Mikponê...).
           De génération en génération, chaque collectivité a transmis cette mémoire que nous entretenons aujourd'hui pour les générations futures.
           </p>
           <router-link
@@ -134,8 +134,8 @@ const documents = [
     <div class="max-w-7xl mx-auto px-4 lg:px-8">
       <SectionTitle
         eyebrow="Les Collectivités"
-        title="Les Branches de Démèssè"
-        description="Démèssè est le fondateur de la dynastie. Ses enfants ont formé les collectivités et branches qui perpétuent son héritage."
+        title="Les Branches de Dê-Messe"
+        description="Dê-Messe est le fondateur de la dynastie. Ses enfants ont formé les 11 collectivités et branches qui perpétuent son héritage."
       />
       <div class="grid md:grid-cols-3 gap-8" data-aos="fade-up" data-aos-duration="900">
         <LigneeCard
@@ -158,7 +158,7 @@ const documents = [
           class="!mb-0"
         />
         <router-link
-          :to="{ name: 'frontend.recits.royaume-porto-novo' }"
+          :to="{ name: 'frontend.recits.royaume-hogbonou' }"
           class="inline-flex items-center gap-2 text-sm font-semibold text-app-primary hover:text-app-accent transition-colors group whitespace-nowrap"
         >
           Voir tous les récits
@@ -224,7 +224,7 @@ const documents = [
           class="!mb-0"
         />
         <router-link
-          :to="{ name: 'frontend.dynastie.documents' }"
+          :to="{ name: 'frontend.archives' }"
           class="inline-flex items-center gap-2 text-sm font-semibold text-app-primary hover:text-app-accent transition-colors group whitespace-nowrap"
         >
           Tous les documents

@@ -33,6 +33,6 @@ const documents = [
     :key-facts="keyFacts"
     :documents="documents"
     :prev="{ label: 'Roi Tê-Agbanlin',       to: { name: 'frontend.recits.te-agbanlin' } }"
-    :next="{ label: 'Royaume de Porto-Novo', to: { name: 'frontend.recits.royaume-porto-novo' } }"
+    :next="{ label: 'Royaume de Porto-Novo', to: { name: 'frontend.recits.royaume-hogbonou' } }"
   />
 </template>

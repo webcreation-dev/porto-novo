@@ -32,6 +32,6 @@ const documents = [
     :figures="figures"
     :documents="documents"
     :prev="{ label: 'Dê-Ayikpe',  to: { name: 'frontend.dynastie.ayikpe' } }"
-    :next="{ label: 'Généalogie', to: { name: 'frontend.dynastie.genealogie' } }"
+    :next="{ label: 'Généalogie', to: { name: 'frontend.dynastie.demesse' } }"
   />
 </template>

@@ -1,0 +1,1 @@
+import{_ as o}from"./PagePlaceholder-DNHwZqEm.js";import{z as r,o as t}from"./index-Dkn99mAC.js";import"./PageBanner-COp74a9K.js";import"./royaume-porto-novo-CYospKeW.js";const n={__name:"index",setup(e){return(_,a)=>(t(),r(o))}};export{n as default};

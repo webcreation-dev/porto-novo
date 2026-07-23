@@ -1,0 +1,1 @@
+import{_ as o}from"./PagePlaceholder-DNHwZqEm.js";import{z as r,o as t}from"./index-Dkn99mAC.js";import"./PageBanner-COp74a9K.js";import"./royaume-porto-novo-CYospKeW.js";const p={__name:"houssou-gandin",setup(a){return(s,_)=>(t(),r(o))}};export{p as default};

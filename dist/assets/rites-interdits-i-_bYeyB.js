@@ -1,0 +1,1 @@
+import{_ as r}from"./PagePlaceholder-DNHwZqEm.js";import{z as t,o}from"./index-Dkn99mAC.js";import"./PageBanner-COp74a9K.js";import"./royaume-porto-novo-CYospKeW.js";const p={__name:"rites-interdits",setup(e){return(s,_)=>(o(),t(r))}};export{p as default};

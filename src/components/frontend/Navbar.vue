@@ -21,7 +21,7 @@ const dynastieLignees = [
   { name: 'frontend.dynastie.affokpa',        label: 'Affokpa' },
   { name: 'frontend.dynastie.ahouanhode',     label: 'Ahouanhode' },
   { name: 'frontend.dynastie.tognon',         label: 'Dê-Tognon' },
-  { name: 'frontend.dynastie.mikpone',        label: 'De-Mikponê' },
+  { name: 'frontend.dynastie.mikpone',        label: 'De-Mikpon' },
   { name: 'frontend.dynastie.histoire-qa',    label: 'Histoire en question & reponse' },
 ]
 
@@ -30,7 +30,7 @@ const recits = [
   { name: 'frontend.recits.de-hakpon',        label: 'Dê-Hakpon' },
   { name: 'frontend.recits.lokpon',           label: 'Dê-Lokpon' },
   { name: 'frontend.recits.houde',            label: 'Dê Houde' },
-  { name: 'frontend.recits.houyi',            label: 'DêHouyi' },
+  { name: 'frontend.recits.houyi',            label: 'Dê Houyi' },
   { name: 'frontend.recits.te-ada',           label: 'Tè Ada' },
   { name: 'frontend.recits.te-vossou',        label: 'Tè Vossou' },
   { name: 'frontend.recits.te-wokou',         label: 'Tè Wokou' },
@@ -65,7 +65,8 @@ const diaspora = [
   { name: 'frontend.diaspora.canada',       label: 'Canada',         flag: '🇨🇦' },
   { name: 'frontend.diaspora.congo',        label: 'Congo',          flag: '🇨🇬' },
   { name: 'frontend.diaspora.civ',          label: 'Cote D\'ivoire',  flag: '🇨🇮' },
-  { name: 'frontend.diaspora.france-gabon', label: 'France Gabon',   flag: '🌍' },
+  { name: 'frontend.diaspora.france',       label: 'France',         flag: '🇫🇷' },
+  { name: 'frontend.diaspora.gabon',        label: 'Gabon',          flag: '🇬🇦' },
 ]
 
 function isInSection(prefix) {

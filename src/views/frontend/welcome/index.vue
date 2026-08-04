@@ -30,7 +30,7 @@ const lignees = [
     to: { name: 'frontend.dynastie.tognon' },
   },
   {
-    name: 'Dê-Mikponê',
+    name: 'Dê-Mikpon',
     period: 'Lignée Souveraine',
     description: 'Une autre branche fondatrice importante qui porte fièrement l\'héritage de notre dynastie.',
     icon: 'mdi:crown-outline',
@@ -113,7 +113,7 @@ const documents = [
           </p>
           <p class="text-app-muted leading-relaxed mb-8">
             Depuis Tê-Agbanlin, fondateur du royaume au 17ᵉ siècle, dix-huit rois lui ont succédés jusqu'à
-          la colonisation. Dê-Messe, le fondateur de la dynastie, a eu des enfants qui ont formé les collectivités et branches de la dynastie (Dê-Ayikpe, Dê-Tognon, Dê-Mikponê...).
+          la colonisation. Dê-Messe, le fondateur de la dynastie, a eu des enfants qui ont formé les collectivités et branches de la dynastie (Dê-Ayikpe, Dê-Tognon, Dê-Mikpon...).
           De génération en génération, chaque collectivité a transmis cette mémoire que nous entretenons aujourd'hui pour les générations futures.
           </p>
           <router-link

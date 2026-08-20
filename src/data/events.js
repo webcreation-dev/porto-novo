@@ -10,7 +10,7 @@ export const events = [
   {
     slug: 'ceremonie-anniversaire-fondation-2026',
     title: 'Cérémonie anniversaire de la fondation du Royaume',
-    excerpt: 'La cérémonie traditionnelle marquant la fondation du Royaume de Hogbonou par Tê-Agbanlin.',
+    excerpt: 'La cérémonie traditionnelle marquant la fondation du Royaume de Hogbonou par Tê Agbanlin.',
     image: imgPortoNovo,
     date: '2026-09-08',
     time: '09h00',
@@ -53,7 +53,7 @@ export const events = [
     audience: 'Grand public · sur inscription',
     content: [
       'Cette visite commentée est l’occasion de découvrir les lieux emblématiques du Palais Royal de Porto-Novo : la cour d’honneur, les salles d’audience, les chambres royales et les espaces cérémoniels.',
-      'Un guide partage l’histoire de la dynastie depuis sa fondation par Tê-Agbanlin et explique le rôle des ministres traditionnels dans l’organisation du royaume.',
+      'Un guide partage l’histoire de la dynastie depuis sa fondation par Tê Agbanlin et explique le rôle des ministres traditionnels dans l’organisation du royaume.',
       '[TODO contenu client] Modalités d’inscription, tarif et nombre de places à confirmer.',
     ],
   },

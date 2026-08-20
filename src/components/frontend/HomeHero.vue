@@ -21,7 +21,7 @@ const slides = [
   {
     image: b2,
     eyebrow: 'Royaume de Hogbonou · 17ᵉ siècle',
-    title: 'Tê-Agbanlin, Premier Roi et fondateur du royaume',
+    title: 'Tê Agbanlin, Fondateur et 1er Roi du royaume',
     subtitle: 'Dix-huit rois lui ont succédé jusqu’à la colonisation. Une mémoire transmise de génération en génération.',
     primaryCta: { label: 'Lire le récit', to: { name: 'frontend.recits.te-agbanlin' } },
     secondaryCta: { label: 'Les rois de Porto-Novo', to: { name: 'frontend.recits.te-agbanlin' } },
@@ -45,7 +45,7 @@ const slides = [
   {
     image: b5,
     eyebrow: 'Royaume de Hogbonou · 17ᵉ siècle',
-    title: 'Tê-Agbanlin, Premier Roi et fondateur du royaume',
+    title: 'Tê Agbanlin, Fondateur et 1er Roi du royaume',
     subtitle: 'Dix-huit rois lui ont succédé jusqu’à la colonisation. Une mémoire transmise de génération en génération.',
     primaryCta: { label: 'Lire le récit', to: { name: 'frontend.recits.te-agbanlin' } },
     secondaryCta: { label: 'Les rois de Porto-Novo', to: { name: 'frontend.recits.te-agbanlin' } },

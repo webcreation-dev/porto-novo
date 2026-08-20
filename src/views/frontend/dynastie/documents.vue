@@ -3,7 +3,7 @@ import DocumentPage from '@/components/frontend/DocumentPage.vue'
 
 const intro = [
   'Le document « Histoire de la lignée Dê-Messe » constitue l’une des références majeures de la dynastie. Il rassemble les éléments historiques, généalogiques et institutionnels qui permettent de comprendre la lignée éponyme et son inscription dans le royaume de Hogbonou.',
-  'Ce document s’inscrit dans la longue tradition de mise par écrit de la mémoire orale, transmise de génération en génération depuis la fondation du royaume au XVIIᵉ siècle par Tê-Agbanlin.',
+  'Ce document s’inscrit dans la longue tradition de mise par écrit de la mémoire orale, transmise de génération en génération depuis la fondation du royaume au XVIIᵉ siècle par Tê Agbanlin.',
 ]
 
 const metadata = [
@@ -21,7 +21,7 @@ const highlights = [
 const related = [
   { title: 'Conseil des Sages',         year: '1993',      pdfUrl: '/pdf/Conseil_sae_1993.pdf',     icon: 'mdi:account-group-outline' },
   { title: 'Réunion des Sages',         year: '1998',      pdfUrl: '/pdf/Reunion_Sage_1998.pdf',    icon: 'mdi:account-tie-voice' },
-  { title: 'Généalogie de Tê-Agbanlin', year: 'Référence', pdfUrl: '/pdf/Genealogie-Te-Agbanlin_F4.pdf', icon: 'mdi:family-tree' },
+  { title: 'Généalogie de Tê Agbanlin', year: 'Référence', pdfUrl: '/pdf/Genealogie-Te-Agbanlin_F4.pdf', icon: 'mdi:family-tree' },
   { title: 'Histoire de la lignée Dê-Tognon', year: 'Référence', pdfUrl: '/pdf/DE-TOGNON_Histoire.pdf', icon: 'mdi:book-open-variant' },
 ]
 </script>

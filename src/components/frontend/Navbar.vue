@@ -7,7 +7,7 @@ import logo from '@/assets/images/logo.png'
 const route = useRoute()
 const mobileOpen = ref(false)
 
-// Mega menu "Dynastie Royale De-Messe"
+// Mega menu "Dynastie Royale Dê-Messe"
 const dynastieLignees = [
   { name: 'frontend.dynastie.demesse',        label: 'Dê-Messe' },
   { name: 'frontend.dynastie.ayikpe',         label: 'Dê-Ayikpe' },
@@ -21,12 +21,12 @@ const dynastieLignees = [
   { name: 'frontend.dynastie.affokpa',        label: 'Affokpa' },
   { name: 'frontend.dynastie.ahouanhode',     label: 'Ahouanhode' },
   { name: 'frontend.dynastie.tognon',         label: 'Dê-Tognon' },
-  { name: 'frontend.dynastie.mikpone',        label: 'De-Mikpon' },
+  { name: 'frontend.dynastie.mikpone',        label: 'Dê-Mikpon' },
   { name: 'frontend.dynastie.histoire-qa',    label: 'Histoire en question & reponse' },
 ]
 
 const recits = [
-  { name: 'frontend.recits.te-agbanlin',      label: 'Tê-Agbanlin' },
+  { name: 'frontend.recits.te-agbanlin',      label: 'Tê Agbanlin' },
   { name: 'frontend.recits.de-hakpon',        label: 'Dê-Hakpon' },
   { name: 'frontend.recits.lokpon',           label: 'Dê-Lokpon' },
   { name: 'frontend.recits.houde',            label: 'Dê Houde' },
@@ -42,6 +42,7 @@ const recits = [
   { name: 'frontend.recits.ketou',            label: 'Le Royaume de Ketou' },
   { name: 'frontend.recits.autres-royaumes',  label: 'Autres Royaumes' },
   { name: 'frontend.recits.le-benin',         label: 'Le Benin' },
+  { name: 'frontend.recits.histoire-oyo',     label: 'Histoire d\'Oyo' },
 ]
 
 const patrimoines = [
@@ -54,6 +55,10 @@ const patrimoines = [
   { name: 'frontend.patrimoines.avessan',         label: 'Avessan' },
   { name: 'frontend.patrimoines.autres',          label: 'Autres patrimoines' },
   { name: 'frontend.patrimoines.rites-interdits', label: 'Rites et interdits' },
+  { name: 'frontend.patrimoines.adjogan',             label: 'Adjogan' },
+  { name: 'frontend.patrimoines.egun-gun',            label: 'Egun gun' },
+  { name: 'frontend.patrimoines.chiffres-goun',       label: 'Les chiffres en goun' },
+  { name: 'frontend.patrimoines.bibliotheque-royale', label: 'Bibliothèque Royale' },
 ]
 
 const agendaEvenements = [
@@ -62,11 +67,34 @@ const agendaEvenements = [
 ]
 
 const diaspora = [
-  { name: 'frontend.diaspora.canada',       label: 'Canada',         flag: '🇨🇦' },
-  { name: 'frontend.diaspora.congo',        label: 'Congo',          flag: '🇨🇬' },
-  { name: 'frontend.diaspora.civ',          label: 'Cote D\'ivoire',  flag: '🇨🇮' },
-  { name: 'frontend.diaspora.france',       label: 'France',         flag: '🇫🇷' },
-  { name: 'frontend.diaspora.gabon',        label: 'Gabon',          flag: '🇬🇦' },
+  {
+    continent: 'Afrique',
+    countries: [
+      { name: 'frontend.diaspora.congo',        label: 'Congo',          flag: '🇨🇬' },
+      { name: 'frontend.diaspora.civ',          label: 'Côte d\'Ivoire',  flag: '🇨🇮' },
+      { name: 'frontend.diaspora.gabon',        label: 'Gabon',          flag: '🇬🇦' },
+    ]
+  },
+  {
+    continent: 'Amérique',
+    countries: [
+      { name: 'frontend.diaspora.canada',       label: 'Canada',         flag: '🇨🇦' },
+    ]
+  },
+  {
+    continent: 'Europe',
+    countries: [
+      { name: 'frontend.diaspora.france',       label: 'France',         flag: '🇫🇷' },
+    ]
+  },
+  {
+    continent: 'Asie',
+    countries: []
+  },
+  {
+    continent: 'Océanie',
+    countries: []
+  }
 ]
 
 function isInSection(prefix) {
@@ -98,7 +126,7 @@ function isInSection(prefix) {
             Accueil
           </router-link>
 
-          <!-- Dynastie Royale De-Messe -->
+          <!-- Dynastie Royale Dê-Messe -->
           <div class="relative group">
             <button
               :class="isInSection('frontend.dynastie') ? 'text-app-primary' : 'text-app-dark'"
@@ -201,15 +229,18 @@ function isInSection(prefix) {
             </button>
             <div class="absolute left-0 top-full pt-3 invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-all duration-200 w-56">
               <div class="bg-white rounded-lg shadow-2xl border border-royal-200 py-2">
-                <router-link
-                  v-for="item in diaspora"
-                  :key="item.name"
-                  :to="{ name: item.name }"
-                  class="flex items-center gap-3 px-4 py-2 text-sm text-app-dark hover:bg-royal-50 hover:text-app-primary transition-colors"
-                >
-                  <span class="text-base">{{ item.flag }}</span>
-                  {{ item.label }}
-                </router-link>
+                <template v-for="region in diaspora" :key="region.continent">
+                  <div class="px-4 py-1 mt-1 text-xs font-bold text-royal-800 uppercase tracking-wider bg-royal-50/50">{{ region.continent }}</div>
+                  <router-link
+                    v-for="item in region.countries"
+                    :key="item.name"
+                    :to="{ name: item.name }"
+                    class="flex items-center gap-3 px-4 py-2 text-sm text-app-dark hover:bg-royal-50 hover:text-app-primary transition-colors"
+                  >
+                    <span class="text-base">{{ item.flag }}</span>
+                    {{ item.label }}
+                  </router-link>
+                </template>
               </div>
             </div>
           </div>
@@ -258,7 +289,7 @@ function isInSection(prefix) {
 
         <Accordion :value="null" class="-mx-4 [&_.p-accordionheader]:!bg-transparent [&_.p-accordioncontent-content]:!bg-transparent">
           <AccordionPanel value="0">
-            <AccordionHeader class="!px-4 !py-3 !text-app-dark hover:!text-app-primary">Dynastie Royale De-Messe</AccordionHeader>
+            <AccordionHeader class="!px-4 !py-3 !text-app-dark hover:!text-app-primary">Dynastie Royale Dê-Messe</AccordionHeader>
             <AccordionContent>
               <div class="px-4 py-1">
                 <router-link
@@ -322,16 +353,19 @@ function isInSection(prefix) {
             <AccordionHeader class="!px-4 !py-3 !text-app-dark hover:!text-app-primary">Diaspora</AccordionHeader>
             <AccordionContent>
               <div class="px-4 py-1">
-                <router-link
-                  v-for="item in diaspora"
-                  :key="item.name"
-                  :to="{ name: item.name }"
-                  @click="mobileOpen = false"
-                  class="flex items-center gap-2 py-2 text-sm text-app-dark hover:text-app-primary"
-                >
-                  <span class="text-base">{{ item.flag }}</span>
-                  {{ item.label }}
-                </router-link>
+                <template v-for="region in diaspora" :key="region.continent">
+                  <div class="py-1 text-xs font-bold text-royal-800 uppercase tracking-wider mt-2">{{ region.continent }}</div>
+                  <router-link
+                    v-for="item in region.countries"
+                    :key="item.name"
+                    :to="{ name: item.name }"
+                    @click="mobileOpen = false"
+                    class="flex items-center gap-2 py-2 text-sm text-app-dark hover:text-app-primary ml-2"
+                  >
+                    <span class="text-base">{{ item.flag }}</span>
+                    {{ item.label }}
+                  </router-link>
+                </template>
               </div> 
             </AccordionContent>
           </AccordionPanel>

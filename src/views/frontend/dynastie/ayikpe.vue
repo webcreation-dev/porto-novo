@@ -3,7 +3,7 @@ import LigneePage from '@/components/frontend/LigneePage.vue'
 import imgPortoNovo from '@/assets/images/recits/royaume-porto-novo.jpg'
 
 const story = [
-  'Dê-Ayikpe est l’une des grandes branches royales du royaume de Hogbonou (Porto-Novo). Présente dans la succession des dix-huit rois qui se sont relayés sur le trône de Tê-Agbanlin, elle constitue un pilier de la mémoire dynastique.',
+  'Dê-Ayikpe est l’une des grandes branches royales du royaume de Hogbonou (Porto-Novo). Présente dans la succession des dix-huit rois qui se sont relayés sur le trône de Tê Agbanlin, elle constitue un pilier de la mémoire dynastique.',
   'La lignée Dê-Ayikpe a participé activement à la consolidation du royaume aux côtés des autres lignées royales, dans une organisation administrative structurée par les ministres traditionnels — Migan, Gogan, Mewou, Akplogan, Awatagan — qui ont assuré la continuité institutionnelle à travers les règnes successifs.',
   '[TODO contenu client] L’histoire détaillée de la lignée Dê-Ayikpe, ses figures marquantes et ses contributions au royaume de Porto-Novo seront enrichies à partir des archives et des récits transmis de génération en génération.',
 ]
@@ -14,7 +14,7 @@ const figures = [
 ]
 
 const documents = [
-  { title: 'Histoire de la lignée Dê-Ayikpe', year: 'Référence', pdfUrl: '/pdf/Histoire_De-Ayikpe_Final.pdf', icon: 'mdi:book-open-variant' },
+  { title: 'Histoire de la lignée Dê-Ayikpe', year: 'Référence', pdfUrl: '/pdf/Histoire_Dê-Ayikpe_Final.pdf', icon: 'mdi:book-open-variant' },
   { title: 'Conseil des Sages',               year: '1993',      pdfUrl: '/pdf/Conseil_sae_1993.pdf',          icon: 'mdi:account-group-outline' },
   { title: 'Réunion des Sages',               year: '1998',      pdfUrl: '/pdf/Reunion_Sage_1998.pdf',         icon: 'mdi:account-tie-voice' },
   { title: 'Assemblée Générale',              year: '1973',      pdfUrl: '/pdf/AG_Avril.pdf',                  icon: 'mdi:gavel' },

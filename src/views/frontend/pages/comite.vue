@@ -4,7 +4,7 @@ import PageBanner from '@/components/frontend/PageBanner.vue'
 import SectionTitle from '@/components/frontend/SectionTitle.vue'
 
 const conseilSages = [
-  { name: '[Nom à compléter]',  role: 'Président du Conseil des Sages', bio: 'Garant de la mémoire dynastique et des traditions transmises depuis Tê-Agbanlin.' },
+  { name: '[Nom à compléter]',  role: 'Président du Conseil des Sages', bio: 'Garant de la mémoire dynastique et des traditions transmises depuis Tê Agbanlin.' },
   { name: '[Nom à compléter]',  role: 'Vice-président',                  bio: 'Membre éminent de la lignée, dépositaire des récits oraux.' },
   { name: '[Nom à compléter]',  role: 'Secrétaire',                       bio: 'Responsable des archives écrites et de la conservation documentaire.' },
   { name: '[Nom à compléter]',  role: 'Sage',                             bio: 'Voix d’autorité dans les délibérations majeures de la dynastie.' },
@@ -88,7 +88,7 @@ const equipeSite = [
       <SectionTitle
         eyebrow="Cour royale"
         title="Les ministres traditionnels"
-        description="L'organisation administrative du royaume est assurée depuis Tê-Agbanlin par cinq ministères aux fonctions précises."
+        description="L'organisation administrative du royaume est assurée depuis Tê Agbanlin par cinq ministères aux fonctions précises."
       />
 
       <div class="grid sm:grid-cols-2 lg:grid-cols-5 gap-4">

@@ -41,20 +41,20 @@ const lignees = [
 const recitsVedette = [
   {
     image: imgTeAgbanlin,
-    title: 'Tê-Agbanlin',
+    title: 'Tê Agbanlin',
     excerpt: 'Fondateur du royaume de Hogbonou au 17ᵉ siècle. Dix-huit rois lui succèderont jusqu\'à la colonisation.',
     category: 'Personnage Historique',
     to: { name: 'frontend.recits.te-agbanlin' },
   },
   {
-    image: 'https://placehold.co/600x800/2a3129/c9a227?text=De-Messe',
+    image: 'https://placehold.co/600x800/2a3129/c9a227?text=Dê-Messe',
     title: 'Dê-Messe',
     excerpt: 'Le fondateur de notre dynastie, dont les descendants forment aujourd\'hui nos collectivités et branches royales.',
     category: 'Fondateur',
     to: { name: 'frontend.dynastie.demesse' },
   },
   {
-    image: 'https://placehold.co/600x800/2a3129/c9a227?text=De-Ayikpe',
+    image: 'https://placehold.co/600x800/2a3129/c9a227?text=Dê-Ayikpe',
     title: 'Dê-Ayikpe',
     excerpt: 'Branche aînée de la dynastie, poursuivant l\'héritage royal à travers les âges.',
     category: 'Lignée Royale',
@@ -63,9 +63,9 @@ const recitsVedette = [
 ]
 
 const royaumes = [
-  { image: imgPortoNovo, title: 'Royaume de Porto-Novo', excerpt: 'Hogbonou, fondé par Tê-Agbanlin. Le berceau de notre dynastie.', category: 'Royaume', to: { name: 'frontend.recits.royaume-hogbonou' } },
+  { image: imgPortoNovo, title: 'Royaume de Porto-Novo', excerpt: 'Hogbonou, fondé par Tê Agbanlin. Le berceau de notre dynastie.', category: 'Royaume', to: { name: 'frontend.recits.royaume-hogbonou' } },
   { image: imgAbomey,    title: 'Royaume d’Abomey',     excerpt: 'Le puissant royaume du Danxomè, célèbre pour ses rois et son patrimoine artistique.', category: 'Royaume', to: { name: 'frontend.recits.abomey' } },
-  { image: imgAllada,    title: 'Royaume d’Allada',     excerpt: 'Berceau historique fondé par le Roi Kokpon Adjahoutô, père de Tê-Agbanlin.', category: 'Royaume', to: { name: 'frontend.recits.allada' } },
+  { image: imgAllada,    title: 'Royaume d’Allada',     excerpt: 'Berceau historique fondé par le Roi Kokpon Adjahoutô, père de Tê Agbanlin.', category: 'Royaume', to: { name: 'frontend.recits.allada' } },
   { image: imgKetou,     title: 'Royaume de Kétou',     excerpt: 'L’un des grands royaumes yoruba du Bénin, riche d’une histoire millénaire.', category: 'Royaume', to: { name: 'frontend.recits.ketou' } },
 ]
 
@@ -112,7 +112,7 @@ const documents = [
             et des grandes lignées royales du Bénin.
           </p>
           <p class="text-app-muted leading-relaxed mb-8">
-            Depuis Tê-Agbanlin, fondateur du royaume au 17ᵉ siècle, dix-huit rois lui ont succédés jusqu'à
+            Depuis Tê Agbanlin, fondateur du royaume au 17ᵉ siècle, dix-huit rois lui ont succédés jusqu'à
           la colonisation. Dê-Messe, le fondateur de la dynastie, a eu des enfants qui ont formé les collectivités et branches de la dynastie (Dê-Ayikpe, Dê-Tognon, Dê-Mikpon...).
           De génération en génération, chaque collectivité a transmis cette mémoire que nous entretenons aujourd'hui pour les générations futures.
           </p>

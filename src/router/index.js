@@ -28,11 +28,11 @@ const router = createRouter({
         { path: 'dynastie/affokpa', name: 'frontend.dynastie.affokpa', meta: { title: 'Affokpa' }, component: () => import('@/views/frontend/dynastie/affokpa.vue') },
         { path: 'dynastie/ahouanhode', name: 'frontend.dynastie.ahouanhode', meta: { title: 'Ahouanhode' }, component: () => import('@/views/frontend/dynastie/ahouanhode.vue') },
         { path: 'dynastie/de-tognon', name: 'frontend.dynastie.tognon', meta: { title: 'Dê-Tognon' }, component: () => import('@/views/frontend/dynastie/tognon.vue') },
-        { path: 'dynastie/de-mikpone', name: 'frontend.dynastie.mikpone', meta: { title: 'De-Mikpon' }, component: () => import('@/views/frontend/dynastie/mikpone.vue') },
+        { path: 'dynastie/de-mikpone', name: 'frontend.dynastie.mikpone', meta: { title: 'Dê-Mikpon' }, component: () => import('@/views/frontend/dynastie/mikpone.vue') },
         { path: 'dynastie/histoire-qa', name: 'frontend.dynastie.histoire-qa', meta: { title: 'Histoire en Q&R' }, component: () => import('@/views/frontend/dynastie/histoire-qa.vue') },
 
         // Histoires & Récits
-        { path: 'recits/te-agbanlin', name: 'frontend.recits.te-agbanlin', meta: { title: 'Tê-Agbanlin' }, component: () => import('@/views/frontend/recits/te-agbanlin.vue') },
+        { path: 'recits/te-agbanlin', name: 'frontend.recits.te-agbanlin', meta: { title: 'Tê Agbanlin' }, component: () => import('@/views/frontend/recits/te-agbanlin.vue') },
         { path: 'recits/de-hakpon', name: 'frontend.recits.de-hakpon', meta: { title: 'Dê-Hakpon' }, component: () => import('@/views/frontend/recits/de-hakpon.vue') },
         { path: 'recits/lokpon', name: 'frontend.recits.lokpon', meta: { title: 'Dê-Lokpon' }, component: () => import('@/views/frontend/recits/lokpon.vue') },
         { path: 'recits/houde', name: 'frontend.recits.houde', meta: { title: 'Dê Houde' }, component: () => import('@/views/frontend/recits/houde.vue') },
@@ -48,6 +48,7 @@ const router = createRouter({
         { path: 'recits/royaume-ketou', name: 'frontend.recits.ketou', meta: { title: 'Royaume de Kétou' }, component: () => import('@/views/frontend/recits/ketou.vue') },
         { path: 'recits/autres-royaumes', name: 'frontend.recits.autres-royaumes', meta: { title: 'Autres Royaumes' }, component: () => import('@/views/frontend/recits/autres-royaumes.vue') },
         { path: 'recits/le-benin', name: 'frontend.recits.le-benin', meta: { title: 'Le Benin' }, component: () => import('@/views/frontend/recits/le-benin.vue') },
+        { path: 'recits/histoire-oyo', name: 'frontend.recits.histoire-oyo', meta: { title: 'Histoire d\'Oyo' }, component: () => import('@/views/frontend/recits/histoire-oyo.vue') },
 
         // Patrimoines
         { path: 'patrimoines/prenoms-ahovi', name: 'frontend.patrimoines.prenoms-ahovi', meta: { title: 'Prenoms Ahovi' }, component: () => import('@/views/frontend/patrimoines/prenoms-ahovi.vue') },
@@ -59,6 +60,10 @@ const router = createRouter({
         { path: 'patrimoines/avessan', name: 'frontend.patrimoines.avessan', meta: { title: 'Avessan' }, component: () => import('@/views/frontend/patrimoines/avessan.vue') },
         { path: 'patrimoines/autres', name: 'frontend.patrimoines.autres', meta: { title: 'Autres patrimoines' }, component: () => import('@/views/frontend/patrimoines/autres.vue') },
         { path: 'patrimoines/rites-interdits', name: 'frontend.patrimoines.rites-interdits', meta: { title: 'Rites et interdits' }, component: () => import('@/views/frontend/patrimoines/rites-interdits.vue') },
+        { path: 'patrimoines/adjogan', name: 'frontend.patrimoines.adjogan', meta: { title: 'Adjogan' }, component: () => import('@/views/frontend/patrimoines/adjogan.vue') },
+        { path: 'patrimoines/egun-gun', name: 'frontend.patrimoines.egun-gun', meta: { title: 'Egun gun' }, component: () => import('@/views/frontend/patrimoines/egun-gun.vue') },
+        { path: 'patrimoines/chiffres-goun', name: 'frontend.patrimoines.chiffres-goun', meta: { title: 'Les chiffres en goun' }, component: () => import('@/views/frontend/patrimoines/chiffres-goun.vue') },
+        { path: 'patrimoines/bibliotheque-royale', name: 'frontend.patrimoines.bibliotheque-royale', meta: { title: 'Bibliothèque Royale' }, component: () => import('@/views/frontend/patrimoines/bibliotheque-royale.vue') },
 
         // Agenda et Evenements
         { path: 'agenda-evenements/agenda', name: 'frontend.agenda', meta: { title: 'Agenda' }, component: () => import('@/views/frontend/publications/agenda/index.vue') },

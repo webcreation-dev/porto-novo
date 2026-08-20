@@ -40,14 +40,14 @@ export const articles = [
   {
     slug: 'hommage-roi-dê-kpodagba',
     title: 'Hommage au Roi régnant Dê-Kpodagba Alômanwle Lokpon 8',
-    excerpt: 'Une cérémonie d’hommage organisée pour honorer le souverain qui occupe aujourd’hui le trône de Tê-Agbanlin.',
+    excerpt: 'Une cérémonie d’hommage organisée pour honorer le souverain qui occupe aujourd’hui le trône de Tê Agbanlin.',
     image: imgHakpon,
     date: '2026-02-18',
     category: 'Cérémonie',
     author: 'Comité éditorial',
     readingMinutes: 6,
     content: [
-      'Une cérémonie d’hommage a été organisée en l’honneur du Roi Dê-Kpodagba Alômanwle Lokpon 8, qui occupe aujourd’hui le trône de Tê-Agbanlin et perpétue la dynastie depuis plusieurs années.',
+      'Une cérémonie d’hommage a été organisée en l’honneur du Roi Dê-Kpodagba Alômanwle Lokpon 8, qui occupe aujourd’hui le trône de Tê Agbanlin et perpétue la dynastie depuis plusieurs années.',
       'L’événement a réuni les membres du Conseil des Sages, les ministres traditionnels — Migan, Gogan, Mewou, Akplogan, Awatagan — ainsi que de nombreux représentants de la grande famille royale et de la communauté.',
       '[TODO contenu client] Le déroulé complet de la cérémonie et les discours prononcés seront mis en ligne.',
     ],
@@ -83,7 +83,7 @@ export const articles = [
   {
     slug: 'commemoration-fondation-royaume',
     title: 'Commémoration de la fondation du Royaume de Hogbonou',
-    excerpt: 'Trois siècles plus tard, l’héritage de Tê-Agbanlin continue d’unir la communauté.',
+    excerpt: 'Trois siècles plus tard, l’héritage de Tê Agbanlin continue d’unir la communauté.',
     image: imgAbomey,
     date: '2025-09-08',
     category: 'Cérémonie',

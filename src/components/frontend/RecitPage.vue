@@ -5,7 +5,7 @@ import SectionTitle from '@/components/frontend/SectionTitle.vue'
 import DocumentCard from '@/components/frontend/DocumentCard.vue'
 
 defineProps({
-  title:       { type: String, required: true },           // "Roi Tê-Agbanlin"
+  title:       { type: String, required: true },           // "Roi Tê Agbanlin"
   subtitle:    { type: String, default: 'Récit historique' },
   category:    { type: String, default: 'Récit' },         // "Personnage" | "Royaume" | "Lignage"
   intro:       { type: String, required: true },           // accroche

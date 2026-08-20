@@ -20,7 +20,7 @@ const valeurs = [
   {
     icon: 'mdi:book-open-page-variant',
     title: 'Mémoire',
-    description: 'Honorer la mémoire de Tê-Agbanlin et des dix-huit rois qui ont façonné le royaume de Hogbonou.',
+    description: 'Honorer la mémoire de Tê Agbanlin et des dix-huit rois qui ont façonné le royaume de Hogbonou.',
   },
   {
     icon: 'mdi:handshake',
@@ -33,7 +33,7 @@ const timeline = [
   {
     year: '17ᵉ s.',
     title: 'Fondation du royaume de Hogbonou',
-    description: 'Tê-Agbanlin, fils du Roi Kokpon Adjahoutô d’Allada, fonde le royaume de Hogbonou (Porto-Novo).',
+    description: 'Tê Agbanlin, fils du Roi Kokpon Adjahoutô d’Allada, fonde le royaume de Hogbonou (Porto-Novo).',
     icon: 'mdi:crown',
   },
   {

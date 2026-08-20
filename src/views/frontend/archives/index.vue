@@ -2,7 +2,7 @@
 import PageBanner from '@/components/frontend/PageBanner.vue'
 import SectionTitle from '@/components/frontend/SectionTitle.vue'
 import DocumentCard from '@/components/frontend/DocumentCard.vue'
-import b1 from '@/assets/images/royalty/b1.jpg'
+import b1 from '@/assets/images/old/b1.jpg'
 
 const documents = [
   { title: 'Accord de succession des rois de porto novo', year: 'Historique', pdfUrl: '#' },

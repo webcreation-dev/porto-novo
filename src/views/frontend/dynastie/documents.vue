@@ -2,19 +2,19 @@
 import DocumentPage from '@/components/frontend/DocumentPage.vue'
 
 const intro = [
-  'Le document « Histoire de la lignée Dê-Messe » constitue l’une des références majeures de la dynastie. Il rassemble les éléments historiques, généalogiques et institutionnels qui permettent de comprendre la lignée éponyme et son inscription dans le royaume de Hogbonou.',
+  'Le document « Histoire de la lignée Dê-Mêsse » constitue l’une des références majeures de la dynastie. Il rassemble les éléments historiques, généalogiques et institutionnels qui permettent de comprendre la lignée éponyme et son inscription dans le royaume de Hogbonou.',
   'Ce document s’inscrit dans la longue tradition de mise par écrit de la mémoire orale, transmise de génération en génération depuis la fondation du royaume au XVIIᵉ siècle par Tê Agbanlin.',
 ]
 
 const metadata = [
   { label: 'Type',           value: 'Document de référence', icon: 'mdi:bookmark' },
-  { label: 'Sujet',          value: 'Lignée Dê-Messe',       icon: 'mdi:crown' },
+  { label: 'Sujet',          value: 'Lignée Dê-Mêsse',       icon: 'mdi:crown' },
   { label: 'Période évoquée', value: '1752 — 1757',           icon: 'mdi:calendar' },
   { label: 'Format',         value: 'PDF · Lecture libre',   icon: 'mdi:file-pdf-box' },
 ]
 
 const highlights = [
-  { title: 'Une lignée fondatrice', text: 'Le document retrace les cinq années du règne de Dê-Messe (1752 — 1757) et son inscription dans la succession des dix-huit rois de Hogbonou.' },
+  { title: 'Une lignée fondatrice', text: 'Le document retrace les cinq années du règne de Dê-Mêsse (1752 — 1757) et son inscription dans la succession des dix-huit rois de Hogbonou.' },
   { title: 'Mémoire vivante',       text: 'Il s’appuie sur les traditions orales transmises et conservées par les dépositaires de la mémoire dynastique.' },
 ]
 
@@ -28,7 +28,7 @@ const related = [
 
 <template>
   <DocumentPage
-    title="Documents Dê-Messe"
+    title="Documents Dê-Mêsse"
     year="Référence"
     subtitle="Archives de la dynastie"
     pdf-url="/pdf/DE-MESSE_Histoire.pdf"

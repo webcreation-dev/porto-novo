@@ -39,7 +39,7 @@ const equipeSite = [
       </h2>
       <div class="w-20 h-1 bg-app-accent mx-auto mb-8"></div>
       <p class="text-app-muted text-lg leading-relaxed">
-        Le Comité de la Dynastie Royale Dê-Messe rassemble les Sages, les dépositaires de la mémoire
+        Le Comité de la Dynastie Royale Dê-Mêsse rassemble les Sages, les dépositaires de la mémoire
         et les acteurs de la transmission. Aux côtés des ministres traditionnels, ils veillent
         à la perpétuation des institutions et à la valorisation du patrimoine.
       </p>

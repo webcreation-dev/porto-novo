@@ -46,9 +46,10 @@ const router = createRouter({
         { path: 'recits/royaume-allada', name: 'frontend.recits.allada', meta: { title: 'Royaume d’Allada' }, component: () => import('@/views/frontend/recits/allada.vue') },
         { path: 'recits/royaume-abomey', name: 'frontend.recits.abomey', meta: { title: 'Royaume d’Abomey' }, component: () => import('@/views/frontend/recits/abomey.vue') },
         { path: 'recits/royaume-ketou', name: 'frontend.recits.ketou', meta: { title: 'Royaume de Kétou' }, component: () => import('@/views/frontend/recits/ketou.vue') },
-        { path: 'recits/autres-royaumes', name: 'frontend.recits.autres-royaumes', meta: { title: 'Autres Royaumes' }, component: () => import('@/views/frontend/recits/autres-royaumes.vue') },
         { path: 'recits/le-benin', name: 'frontend.recits.le-benin', meta: { title: 'Le Benin' }, component: () => import('@/views/frontend/recits/le-benin.vue') },
         { path: 'recits/histoire-oyo', name: 'frontend.recits.histoire-oyo', meta: { title: 'Histoire d\'Oyo' }, component: () => import('@/views/frontend/recits/histoire-oyo.vue') },
+        { path: 'recits/autres-royaumes', name: 'frontend.recits.autres-royaumes', meta: { title: 'Autres Royaumes' }, component: () => import('@/views/frontend/recits/autres-royaumes.vue') },
+
 
         // Patrimoines
         { path: 'patrimoines/prenoms-ahovi', name: 'frontend.patrimoines.prenoms-ahovi', meta: { title: 'Prenoms Ahovi' }, component: () => import('@/views/frontend/patrimoines/prenoms-ahovi.vue') },
@@ -58,12 +59,14 @@ const router = createRouter({
         { path: 'patrimoines/zangbeto', name: 'frontend.patrimoines.zangbeto', meta: { title: 'Zangbeto' }, component: () => import('@/views/frontend/patrimoines/zangbeto.vue') },
         { path: 'patrimoines/mimlan', name: 'frontend.patrimoines.mimlan', meta: { title: 'Mimlan' }, component: () => import('@/views/frontend/patrimoines/mimlan.vue') },
         { path: 'patrimoines/avessan', name: 'frontend.patrimoines.avessan', meta: { title: 'Avessan' }, component: () => import('@/views/frontend/patrimoines/avessan.vue') },
-        { path: 'patrimoines/autres', name: 'frontend.patrimoines.autres', meta: { title: 'Autres patrimoines' }, component: () => import('@/views/frontend/patrimoines/autres.vue') },
         { path: 'patrimoines/rites-interdits', name: 'frontend.patrimoines.rites-interdits', meta: { title: 'Rites et interdits' }, component: () => import('@/views/frontend/patrimoines/rites-interdits.vue') },
         { path: 'patrimoines/adjogan', name: 'frontend.patrimoines.adjogan', meta: { title: 'Adjogan' }, component: () => import('@/views/frontend/patrimoines/adjogan.vue') },
         { path: 'patrimoines/egun-gun', name: 'frontend.patrimoines.egun-gun', meta: { title: 'Egun gun' }, component: () => import('@/views/frontend/patrimoines/egun-gun.vue') },
         { path: 'patrimoines/chiffres-goun', name: 'frontend.patrimoines.chiffres-goun', meta: { title: 'Les chiffres en goun' }, component: () => import('@/views/frontend/patrimoines/chiffres-goun.vue') },
         { path: 'patrimoines/bibliotheque-royale', name: 'frontend.patrimoines.bibliotheque-royale', meta: { title: 'Bibliothèque Royale' }, component: () => import('@/views/frontend/patrimoines/bibliotheque-royale.vue') },
+        { path: 'patrimoines/proverbes-goun', name: 'frontend.patrimoines.proverbes-goun', meta: { title: 'Proverbes Goun' }, component: () => import('@/views/frontend/patrimoines/proverbes-goun.vue') },
+        { path: 'patrimoines/autres', name: 'frontend.patrimoines.autres', meta: { title: 'Autres patrimoines' }, component: () => import('@/views/frontend/patrimoines/autres.vue') },
+
 
         // Agenda et Evenements
         { path: 'agenda-evenements/agenda', name: 'frontend.agenda', meta: { title: 'Agenda' }, component: () => import('@/views/frontend/publications/agenda/index.vue') },

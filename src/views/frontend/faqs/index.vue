@@ -7,19 +7,19 @@ import SectionTitle from '@/components/frontend/SectionTitle.vue'
 const categories = [
   {
     eyebrow: 'La dynastie',
-    title: 'À propos de la Dynastie Royale Dê-Messe',
+    title: 'À propos de la Dynastie Royale Dê-Mêsse',
     icon: 'mdi:crown',
     items: [
       {
-        q: 'Qu’est-ce que la Dynastie Royale Dê-Messe ?',
-        a: 'La Dynastie Royale Dê-Messe est l’une des grandes lignées issues du Royaume de Hogbonou (Porto-Novo, Bénin), fondé au 17ᵉ siècle par Tê Agbanlin. Le nom Dê-Messe fait référence à la lignée royale qui régna entre 1752 et 1757.',
+        q: 'Qu’est-ce que la Dynastie Royale Dê-Mêsse ?',
+        a: 'La Dynastie Royale Dê-Mêsse est l’une des grandes lignées issues du Royaume de Hogbonou (Porto-Novo, Bénin), fondé au 17ᵉ siècle par Tê Agbanlin. Le nom Dê-Mêsse fait référence à la lignée royale qui régna entre 1752 et 1757.',
       },
       {
         q: 'Qui est Tê Agbanlin ?',
         a: 'Tê Agbanlin est le fondateur du royaume de Hogbonou, devenu Porto-Novo. Fils du Roi Kokpon Adjahoutô d’Allada, il a quitté Allada pour s’installer dans la région et y établir un nouveau royaume. Dix-huit rois lui ont succédé jusqu’à la colonisation.',
       },
       {
-        q: 'Quelle est la différence entre Dê-Messe, Dê-Ayikpe et Dê-Tognon ?',
+        q: 'Quelle est la différence entre Dê-Mêsse, Dê-Ayikpe et Dê-Tognon ?',
         a: 'Ce sont trois lignées royales distinctes issues du même royaume de Hogbonou. Chacune représente une branche de la grande famille royale, avec ses propres traditions et son histoire. Notre site présente l’héritage spécifique de chacune.',
       },
     ],

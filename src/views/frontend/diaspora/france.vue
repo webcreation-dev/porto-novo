@@ -2,7 +2,7 @@
 import DiasporaPage from '@/components/frontend/DiasporaPage.vue'
 
 const intro = [
-  'En France, la diaspora de la Dynastie Royale Dê-Messe est l’une des plus structurées et des plus anciennes. Présente principalement en Île-de-France, mais aussi à Lyon, Marseille et Bordeaux, la communauté française joue un rôle clé dans la diffusion européenne du patrimoine de la dynastie.',
+  'En France, la diaspora de la Dynastie Royale Dê-Mêsse est l’une des plus structurées et des plus anciennes. Présente principalement en Île-de-France, mais aussi à Lyon, Marseille et Bordeaux, la communauté française joue un rôle clé dans la diffusion européenne du patrimoine de la dynastie.',
   'Forte d’une histoire migratoire ancienne et de liens culturels étroits avec le Bénin, l’antenne française organise régulièrement des rencontres culturelles, participe à des conférences universitaires et accueille les représentants venus de Porto-Novo lors de leurs déplacements en Europe.',
   '[TODO contenu client] L’histoire de l’antenne française et ses dates marquantes pourront être détaillées ici par les membres fondateurs.',
 ]

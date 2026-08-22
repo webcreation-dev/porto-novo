@@ -7,9 +7,9 @@ import logo from '@/assets/images/logo.png'
 const route = useRoute()
 const mobileOpen = ref(false)
 
-// Mega menu "Dynastie Royale Dê-Messe"
+// Mega menu "Dynastie Royale Dê-Mêsse"
 const dynastieLignees = [
-  { name: 'frontend.dynastie.demesse',        label: 'Dê-Messe' },
+  { name: 'frontend.dynastie.demesse',        label: 'Dê-Mêsse' },
   { name: 'frontend.dynastie.ayikpe',         label: 'Dê-Ayikpe' },
   { name: 'frontend.dynastie.gounnou-kini',   label: 'Gounnou-Kini-Wannan' },
   { name: 'frontend.dynastie.houssou-gandin', label: 'Houssou Gandin' },
@@ -40,9 +40,9 @@ const recits = [
   { name: 'frontend.recits.allada',           label: 'Le Royaume d\'Allada' },
   { name: 'frontend.recits.abomey',           label: 'Le Royaume d\'Abomey' },
   { name: 'frontend.recits.ketou',            label: 'Le Royaume de Ketou' },
-  { name: 'frontend.recits.autres-royaumes',  label: 'Autres Royaumes' },
   { name: 'frontend.recits.le-benin',         label: 'Le Benin' },
   { name: 'frontend.recits.histoire-oyo',     label: 'Histoire d\'Oyo' },
+  { name: 'frontend.recits.autres-royaumes',  label: 'Autres Royaumes' },
 ]
 
 const patrimoines = [
@@ -53,12 +53,13 @@ const patrimoines = [
   { name: 'frontend.patrimoines.zangbeto',        label: 'Zangbeto' },
   { name: 'frontend.patrimoines.mimlan',          label: 'Mimlan' },
   { name: 'frontend.patrimoines.avessan',         label: 'Avessan' },
-  { name: 'frontend.patrimoines.autres',          label: 'Autres patrimoines' },
   { name: 'frontend.patrimoines.rites-interdits', label: 'Rites et interdits' },
   { name: 'frontend.patrimoines.adjogan',             label: 'Adjogan' },
   { name: 'frontend.patrimoines.egun-gun',            label: 'Egun gun' },
   { name: 'frontend.patrimoines.chiffres-goun',       label: 'Les chiffres en goun' },
   { name: 'frontend.patrimoines.bibliotheque-royale', label: 'Bibliothèque Royale' },
+  { name: 'frontend.patrimoines.proverbes-goun',          label: 'Proverbes Goun' },
+  { name: 'frontend.patrimoines.autres',          label: 'Autres patrimoines' },
 ]
 
 const agendaEvenements = [
@@ -108,10 +109,10 @@ function isInSection(prefix) {
       <div class="flex items-center justify-between h-20">
 
         <router-link :to="{ name: 'frontend.welcome' }" class="flex items-center gap-3 shrink-0">
-          <img :src="logo" alt="Dynastie Royale Dê-Messe" class="h-12 w-auto" />
+          <img :src="logo" alt="Dynastie Royale Dê-Mêsse" class="h-12 w-auto" />
           <div class="hidden xl:flex flex-col leading-tight">
             <span class="font-Cormorant text-lg font-semibold text-app-primary">Dynastie Royale</span>
-            <span class="font-Cormorant text-xs italic text-app-muted tracking-wider">Dê-Messe · Porto-Novo</span>
+            <span class="font-Cormorant text-xs italic text-app-muted tracking-wider">Dê-Mêsse · Porto-Novo</span>
           </div>
         </router-link>
 
@@ -126,7 +127,7 @@ function isInSection(prefix) {
             Accueil
           </router-link>
 
-          <!-- Dynastie Royale Dê-Messe -->
+          <!-- Dynastie Royale Dê-Mêsse -->
           <div class="relative group">
             <button
               :class="isInSection('frontend.dynastie') ? 'text-app-primary' : 'text-app-dark'"
@@ -289,7 +290,7 @@ function isInSection(prefix) {
 
         <Accordion :value="null" class="-mx-4 [&_.p-accordionheader]:!bg-transparent [&_.p-accordioncontent-content]:!bg-transparent">
           <AccordionPanel value="0">
-            <AccordionHeader class="!px-4 !py-3 !text-app-dark hover:!text-app-primary">Dynastie Royale Dê-Messe</AccordionHeader>
+            <AccordionHeader class="!px-4 !py-3 !text-app-dark hover:!text-app-primary">Dynastie Royale Dê-Mêsse</AccordionHeader>
             <AccordionContent>
               <div class="px-4 py-1">
                 <router-link

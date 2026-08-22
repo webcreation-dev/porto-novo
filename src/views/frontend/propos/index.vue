@@ -38,8 +38,8 @@ const timeline = [
   },
   {
     year: '1752 — 1757',
-    title: 'Règne de Dê-Messe',
-    description: 'Une lignée fondatrice s’installe et donne son nom à la dynastie : Dê-Messe. Cinq années qui marquent durablement la mémoire royale.',
+    title: 'Règne de Dê-Mêsse',
+    description: 'Une lignée fondatrice s’installe et donne son nom à la dynastie : Dê-Mêsse. Cinq années qui marquent durablement la mémoire royale.',
     icon: 'mdi:scroll',
   },
   {
@@ -51,7 +51,7 @@ const timeline = [
   {
     year: '1993',
     title: 'Conseil des Sages',
-    description: 'Les sages de la dynastie se réunissent pour acter des décisions majeures concernant la lignée Dê-Messe.',
+    description: 'Les sages de la dynastie se réunissent pour acter des décisions majeures concernant la lignée Dê-Mêsse.',
     icon: 'mdi:account-group',
   },
   {
@@ -97,7 +97,7 @@ const timeline = [
           <div class="w-20 h-1 bg-app-accent mb-8"></div>
 
           <p class="text-app-dark/80 text-lg leading-relaxed mb-6">
-            La <strong class="text-app-primary">Dynastie Royale Dê-Messe</strong> est dédiée à la préservation
+            La <strong class="text-app-primary">Dynastie Royale Dê-Mêsse</strong> est dédiée à la préservation
             et à la valorisation de l'héritage historique et culturel du Royaume de Porto-Novo (Hogbonou)
             et des grandes lignées royales du Bénin.
           </p>
@@ -121,7 +121,7 @@ const timeline = [
       <SectionTitle
         eyebrow="Notre histoire"
         title="Une chronologie royale"
-        description="Des grandes étapes qui ont jalonné l'histoire de la dynastie Dê-Messe et du Royaume de Porto-Novo."
+        description="Des grandes étapes qui ont jalonné l'histoire de la dynastie Dê-Mêsse et du Royaume de Porto-Novo."
       />
       <Timeline :items="timeline" />
     </div>
@@ -163,7 +163,7 @@ const timeline = [
       </h2>
       <div class="w-20 h-1 bg-app-accent mx-auto mb-8"></div>
       <p class="text-royal-100/90 text-lg leading-relaxed mb-10">
-        Contactez-nous pour échanger, contribuer ou simplement en apprendre davantage sur la Dynastie Royale Dê-Messe.
+        Contactez-nous pour échanger, contribuer ou simplement en apprendre davantage sur la Dynastie Royale Dê-Mêsse.
       </p>
       <router-link
         :to="{ name: 'frontend.contact' }"

@@ -2,7 +2,7 @@
 import DiasporaPage from '@/components/frontend/DiasporaPage.vue'
 
 const intro = [
-  'Au Canada, les descendants et amis de la Dynastie Royale Dê-Messe se sont organisés en communauté active depuis plusieurs années. Présente principalement dans les grandes métropoles — Montréal, Toronto, Ottawa — la diaspora canadienne joue un rôle important dans le rayonnement du patrimoine béninois en Amérique du Nord.',
+  'Au Canada, les descendants et amis de la Dynastie Royale Dê-Mêsse se sont organisés en communauté active depuis plusieurs années. Présente principalement dans les grandes métropoles — Montréal, Toronto, Ottawa — la diaspora canadienne joue un rôle important dans le rayonnement du patrimoine béninois en Amérique du Nord.',
   'Les membres de la communauté se réunissent régulièrement pour célébrer les grandes dates de la dynastie, accueillir les visiteurs venus du Bénin et organiser des événements culturels qui font connaître l’histoire du Royaume de Hogbonou.',
   '[TODO contenu client] L’histoire détaillée de l’antenne canadienne, ses moments fondateurs et sa structuration actuelle pourront être enrichis ici.',
 ]

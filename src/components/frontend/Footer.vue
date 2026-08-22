@@ -11,7 +11,7 @@ const recits = [
 ]
 
 const dynastie = [
-  { name: 'frontend.dynastie.demesse',    label: 'Dê-Messe' },
+  { name: 'frontend.dynastie.demesse',    label: 'Dê-Mêsse' },
   { name: 'frontend.dynastie.ayikpe',     label: 'Dê-Ayikpe' },
   { name: 'frontend.dynastie.tognon',     label: 'Dê-Tognon' },
   { name: 'frontend.dynastie.demesse', label: 'Généalogie' },
@@ -26,10 +26,10 @@ const dynastie = [
 
         <div class="lg:col-span-4">
           <router-link :to="{ name: 'frontend.welcome' }" class="inline-flex items-center gap-3">
-            <img :src="logo" alt="Dynastie Royale Dê-Messe" class="h-14 w-auto" />
+            <img :src="logo" alt="Dynastie Royale Dê-Mêsse" class="h-14 w-auto" />
             <div class="flex flex-col leading-tight">
               <span class="font-Cormorant text-xl font-semibold text-app-accent">Dynastie Royale</span>
-              <span class="font-Cormorant text-sm italic text-royal-200/70 tracking-wider">Dê-Messe · Porto-Novo</span>
+              <span class="font-Cormorant text-sm italic text-royal-200/70 tracking-wider">Dê-Mêsse · Porto-Novo</span>
             </div>
           </router-link>
           <p class="mt-6 text-sm leading-relaxed text-royal-200/80">
@@ -125,7 +125,7 @@ const dynastie = [
       <hr class="border-royal-700/40 mt-12 mb-6" />
 
       <div class="flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-royal-200/60">
-        <p>© {{ new Date().getFullYear() }} Dynastie Royale Dê-Messe. Tous droits réservés.</p>
+        <p>© {{ new Date().getFullYear() }} Dynastie Royale Dê-Mêsse. Tous droits réservés.</p>
         <p class="font-Cormorant italic">« Au cœur de notre héritage, réside la grandeur. »</p>
       </div>
 

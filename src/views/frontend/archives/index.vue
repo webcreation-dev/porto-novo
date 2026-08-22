@@ -9,7 +9,7 @@ const documents = [
   { title: 'Assemblée générale de 1973', year: '1973', pdfUrl: '/archives/ag_1973.pdf' },
   { title: 'Message du Xwé Douto Afodji', year: 'Historique', pdfUrl: '/archives/lettre_affodji.pdf' },
   { title: 'Lettre des Xwé Douto', year: 'Historique', pdfUrl: '/archives/archive_dynastie.pdf' },
-  { title: 'Réunion des sages de 1998', year: '1998', pdfUrl: '/archives/conseil_sages.pdf' },
+  { title: 'Conseil des sages de 1998', year: '1998', pdfUrl: '/archives/conseil_sages.pdf' },
   { title: 'La loi sur la chefferie traditionnelle', year: 'Juridique', pdfUrl: '/archives/loi_chefferie.pdf' },
   { title: 'Document de la royauté Tê Agbanlin', year: 'Fondation', pdfUrl: '/archives/archive_royaute.pdf' },
 ]

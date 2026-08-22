@@ -3,7 +3,7 @@ import PageBanner from '@/components/frontend/PageBanner.vue'
 
 defineProps({
   image:    { type: String, default: null },
-  subtitle: { type: String, default: 'Dynastie Royale Dê-Messe' },
+  subtitle: { type: String, default: 'Dynastie Royale Dê-Mêsse' },
 })
 </script>
 

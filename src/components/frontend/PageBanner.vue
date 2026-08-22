@@ -6,7 +6,7 @@ import defaultImage from '@/assets/images/recits/royaume-porto-novo.jpg'
 
 const props = defineProps({
   title:      { type: String,  default: null },
-  subtitle:   { type: String,  default: 'Dynastie Royale Dê-Messe' },
+  subtitle:   { type: String,  default: 'Dynastie Royale Dê-Mêsse' },
   image:      { type: String,  default: null },
   breadcrumb: { type: Array,   default: null }, // [{ label, to? }]
 })

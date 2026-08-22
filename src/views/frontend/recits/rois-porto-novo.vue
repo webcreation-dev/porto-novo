@@ -21,7 +21,7 @@ const figures = [
   { name: '1. Dê Hakpon',   role: 'Successeur de Tê Agbanlin' },
   { name: '2. Dê Lokpon',   role: 'Roi de Hogbonou' },
   { name: '3. Dê Houdé',    role: 'Roi de Hogbonou' },
-  { name: '4. Dê Mèssè',    period: '1752 — 1757', role: 'Roi éponyme de la dynastie Dê-Mêsse' },
+  { name: '4. Dê Mèssè',    period: '1752 — 1757', role: 'Roi éponyme de la dynastie Dê-Mèssè' },
   { name: '5. Dê Houyi',    role: 'Roi de Hogbonou' },
   { name: '6. Dê Gbégnon',  role: 'Roi de Hogbonou' },
   { name: '7. Dê Ayikpé',   role: 'Roi éponyme de la lignée Dê-Ayikpe' },

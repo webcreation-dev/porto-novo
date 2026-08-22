@@ -2,7 +2,7 @@
 import DiasporaPage from '@/components/frontend/DiasporaPage.vue'
 
 const intro = [
-  'La communauté de la Dynastie Royale Dê-Mêsse au Gabon, principalement implantée à Libreville, entretient des liens forts et anciens avec la dynastie. Les échanges culturels et historiques entre le Bénin et le Gabon ont favorisé l’installation et la structuration de cette antenne en Afrique centrale.',
+  'La communauté de la Dynastie Royale Dê-Mèssè au Gabon, principalement implantée à Libreville, entretient des liens forts et anciens avec la dynastie. Les échanges culturels et historiques entre le Bénin et le Gabon ont favorisé l’installation et la structuration de cette antenne en Afrique centrale.',
   'L’antenne gabonaise est un lieu d’ancrage important pour les membres installés au Gabon, mais aussi un point de rayonnement vers les autres pays d’Afrique centrale.',
   '[TODO contenu client] L’histoire détaillée de l’antenne gabonaise et ses moments forts à compléter.',
 ]

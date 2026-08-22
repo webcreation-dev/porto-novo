@@ -23,7 +23,7 @@ const visible = computed(() => tab.value === 'upcoming' ? upcoming.value : past.
       <SectionTitle
         eyebrow="Calendrier"
         title="Cérémonies, réunions, visites & rendez-vous"
-        description="Retrouvez tous les événements organisés par la Dynastie Royale Dê-Mêsse — à venir et passés."
+        description="Retrouvez tous les événements organisés par la Dynastie Royale Dê-Mèssè — à venir et passés."
       />
 
       <!-- Tabs -->

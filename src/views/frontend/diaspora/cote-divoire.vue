@@ -2,7 +2,7 @@
 import DiasporaPage from '@/components/frontend/DiasporaPage.vue'
 
 const intro = [
-  'La communauté de la Dynastie Royale Dê-Mêsse en Côte d’Ivoire est l’une des plus nombreuses sur le continent africain. Concentrée à Abidjan, elle bénéficie de la proximité géographique et culturelle entre le Bénin et la Côte d’Ivoire pour entretenir des liens permanents avec le Comité au Bénin.',
+  'La communauté de la Dynastie Royale Dê-Mèssè en Côte d’Ivoire est l’une des plus nombreuses sur le continent africain. Concentrée à Abidjan, elle bénéficie de la proximité géographique et culturelle entre le Bénin et la Côte d’Ivoire pour entretenir des liens permanents avec le Comité au Bénin.',
   'Les membres ivoiriens jouent un rôle clé dans le rayonnement régional de la dynastie, en organisant régulièrement des rencontres culturelles, des ateliers historiques et en participant activement aux grandes cérémonies traditionnelles.',
   '[TODO contenu client] Histoire et structuration de l’antenne ivoirienne à enrichir avec le représentant local.',
 ]

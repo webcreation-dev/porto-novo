@@ -16,14 +16,14 @@ const metadata = [
 
 const highlights = [
   { title: 'Continuité institutionnelle', text: 'La Réunion de 1998 prolonge les travaux du Conseil des Sages de 1993, marquant la stabilité des orientations prises par la dynastie.' },
-  { title: 'Décisions structurantes',     text: 'Les sages actent des résolutions concernant la lignée Dê-Mêsse et la perpétuation des traditions royales.' },
+  { title: 'Décisions structurantes',     text: 'Les sages actent des résolutions concernant la lignée Dê-Mèssè et la perpétuation des traditions royales.' },
 ]
 
 const related = [
   { title: 'Conseil des Sages',           year: '1993',      pdfUrl: '/pdf/Conseil_sae_1993.pdf',         icon: 'mdi:account-group-outline' },
   { title: 'Message Houédouto Affodji',   year: '1998',      pdfUrl: '/pdf/Message_Comite_1998.pdf',      icon: 'mdi:message-text-outline' },
   { title: 'Assemblée Générale',          year: '1973',      pdfUrl: '/pdf/AG_Avril.pdf',                 icon: 'mdi:gavel' },
-  { title: 'Histoire de la lignée Dê-Mêsse', year: 'Référence', pdfUrl: '/pdf/DE-MESSE_Histoire.pdf',     icon: 'mdi:book-open-variant' },
+  { title: 'Histoire de la lignée Dê-Mèssè', year: 'Référence', pdfUrl: '/pdf/DE-MESSE_Histoire.pdf',     icon: 'mdi:book-open-variant' },
 ]
 </script>
 
@@ -37,7 +37,7 @@ const related = [
     :metadata="metadata"
     :highlights="highlights"
     :related="related"
-    :prev="{ label: 'Documents Dê-Mêsse', to: { name: 'frontend.archives' } }"
+    :prev="{ label: 'Documents Dê-Mèssè', to: { name: 'frontend.archives' } }"
     :next="{ label: 'Assemblée Générale 1973', to: { name: 'frontend.dynastie.ag-1973' } }"
   />
 </template>

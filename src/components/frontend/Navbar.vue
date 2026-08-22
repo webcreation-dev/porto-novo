@@ -7,9 +7,9 @@ import logo from '@/assets/images/logo.png'
 const route = useRoute()
 const mobileOpen = ref(false)
 
-// Mega menu "Dynastie Royale Dê-Mêsse"
+// Mega menu "Dynastie Royale Dê-Mèssè"
 const dynastieLignees = [
-  { name: 'frontend.dynastie.demesse',        label: 'Dê-Mêsse' },
+  { name: 'frontend.dynastie.demesse',        label: 'Dê-Mèssè' },
   { name: 'frontend.dynastie.ayikpe',         label: 'Dê-Ayikpe' },
   { name: 'frontend.dynastie.gounnou-kini',   label: 'Gounnou-Kini-Wannan' },
   { name: 'frontend.dynastie.houssou-gandin', label: 'Houssou Gandin' },
@@ -109,10 +109,10 @@ function isInSection(prefix) {
       <div class="flex items-center justify-between h-20">
 
         <router-link :to="{ name: 'frontend.welcome' }" class="flex items-center gap-3 shrink-0">
-          <img :src="logo" alt="Dynastie Royale Dê-Mêsse" class="h-12 w-auto" />
+          <img :src="logo" alt="Dynastie Royale Dê-Mèssè" class="h-12 w-auto" />
           <div class="hidden xl:flex flex-col leading-tight">
             <span class="font-Cormorant text-lg font-semibold text-app-primary">Dynastie Royale</span>
-            <span class="font-Cormorant text-xs italic text-app-muted tracking-wider">Dê-Mêsse · Porto-Novo</span>
+            <span class="font-Cormorant text-xs italic text-app-muted tracking-wider">Dê-Mèssè · Porto-Novo</span>
           </div>
         </router-link>
 
@@ -127,7 +127,7 @@ function isInSection(prefix) {
             Accueil
           </router-link>
 
-          <!-- Dynastie Royale Dê-Mêsse -->
+          <!-- Dynastie Royale Dê-Mèssè -->
           <div class="relative group">
             <button
               :class="isInSection('frontend.dynastie') ? 'text-app-primary' : 'text-app-dark'"
@@ -290,7 +290,7 @@ function isInSection(prefix) {
 
         <Accordion :value="null" class="-mx-4 [&_.p-accordionheader]:!bg-transparent [&_.p-accordioncontent-content]:!bg-transparent">
           <AccordionPanel value="0">
-            <AccordionHeader class="!px-4 !py-3 !text-app-dark hover:!text-app-primary">Dynastie Royale Dê-Mêsse</AccordionHeader>
+            <AccordionHeader class="!px-4 !py-3 !text-app-dark hover:!text-app-primary">Dynastie Royale Dê-Mèssè</AccordionHeader>
             <AccordionContent>
               <div class="px-4 py-1">
                 <router-link

@@ -23,7 +23,7 @@ const related = [
   { title: 'Conseil des Sages',         year: '1993',      pdfUrl: '/pdf/Conseil_sae_1993.pdf',         icon: 'mdi:account-group-outline' },
   { title: 'Réunion des Sages',         year: '1998',      pdfUrl: '/pdf/Reunion_Sage_1998.pdf',        icon: 'mdi:account-tie-voice' },
   { title: 'Message Houédouto Affodji', year: '1998',      pdfUrl: '/pdf/Message_Comite_1998.pdf',      icon: 'mdi:message-text-outline' },
-  { title: 'Histoire de la lignée Dê-Mêsse', year: 'Référence', pdfUrl: '/pdf/DE-MESSE_Histoire.pdf',  icon: 'mdi:book-open-variant' },
+  { title: 'Histoire de la lignée Dê-Mèssè', year: 'Référence', pdfUrl: '/pdf/DE-MESSE_Histoire.pdf',  icon: 'mdi:book-open-variant' },
 ]
 </script>
 

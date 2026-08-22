@@ -12,7 +12,7 @@ import b7 from '@/assets/images/old/b7.jpg'
 const slides = [
   {
     image: b1,
-    eyebrow: 'Dynastie Royale Dê-Mêsse',
+    eyebrow: 'Dynastie Royale Dê-Mèssè',
     title: 'Au cœur de notre héritage, réside la grandeur.',
     subtitle: 'Découvrez l’héritage vivant d’une lignée de légendes — sagesse, prospérité, leadership.',
     primaryCta: { label: 'Découvrir la dynastie', to: { name: 'frontend.dynastie.demesse' } },
@@ -36,7 +36,7 @@ const slides = [
   },
   {
     image: b4,
-    eyebrow: 'Dynastie Royale Dê-Mêsse',
+    eyebrow: 'Dynastie Royale Dê-Mèssè',
     title: 'Au cœur de notre héritage, réside la grandeur.',
     subtitle: 'Découvrez l’héritage vivant d’une lignée de légendes — sagesse, prospérité, leadership.',
     primaryCta: { label: 'Découvrir la dynastie', to: { name: 'frontend.dynastie.demesse' } },
@@ -60,7 +60,7 @@ const slides = [
   },
   {
     image: b7,
-    eyebrow: 'Dynastie Royale Dê-Mêsse',
+    eyebrow: 'Dynastie Royale Dê-Mèssè',
     title: 'Au cœur de notre héritage, réside la grandeur.',
     subtitle: 'Découvrez l’héritage vivant d’une lignée de légendes — sagesse, prospérité, leadership.',
     primaryCta: { label: 'Découvrir la dynastie', to: { name: 'frontend.dynastie.demesse' } },

@@ -18,7 +18,7 @@ const lignees = [
   {
     name: 'Dê-Ayikpe',
     period: 'Branche Royale Aînée',
-    description: 'L\'une des grandes branches royales de Porto-Novo, fondée par le fils aîné de Dê-Mêsse.',
+    description: 'L\'une des grandes branches royales de Porto-Novo, fondée par le fils aîné de Dê-Mèssè.',
     icon: 'mdi:crown',
     to: { name: 'frontend.dynastie.ayikpe' },
   },
@@ -47,8 +47,8 @@ const recitsVedette = [
     to: { name: 'frontend.recits.te-agbanlin' },
   },
   {
-    image: 'https://placehold.co/600x800/2a3129/c9a227?text=Dê-Mêsse',
-    title: 'Dê-Mêsse',
+    image: 'https://placehold.co/600x800/2a3129/c9a227?text=Dê-Mèssè',
+    title: 'Dê-Mèssè',
     excerpt: 'Le fondateur de notre dynastie, dont les descendants forment aujourd\'hui nos collectivités et branches royales.',
     category: 'Fondateur',
     to: { name: 'frontend.dynastie.demesse' },
@@ -70,7 +70,7 @@ const royaumes = [
 ]
 
 const documents = [
-  { title: 'Histoire de la lignée Dê-Mêsse',          year: 'Référence',  pdfUrl: '/pdf/DE-MESSE_Histoire.pdf',                icon: 'mdi:book-open-variant' },
+  { title: 'Histoire de la lignée Dê-Mèssè',          year: 'Référence',  pdfUrl: '/pdf/DE-MESSE_Histoire.pdf',                icon: 'mdi:book-open-variant' },
   { title: 'Conseil des Sages',                       year: '1993',       pdfUrl: '/pdf/Conseil_sae_1993.pdf',                  icon: 'mdi:account-group-outline' },
   { title: 'Réunion des Sages',                       year: '1998',       pdfUrl: '/pdf/Reunion_Sage_1998.pdf',                 icon: 'mdi:account-tie-voice' },
   { title: 'Rapport d’élection du Roi de Porto-Novo', year: 'Officiel',   pdfUrl: '/pdf/Rapport_Election_Roi_Porto-Novo.pdf',   icon: 'mdi:scroll' },
@@ -90,13 +90,13 @@ const documents = [
           <div class="absolute -inset-4 bg-app-accent/20 -rotate-2"></div>
           <div class="relative bg-white p-10 lg:p-16 shadow-xl">
             <div class="flex items-center justify-center mb-6">
-              <img :src="logo" alt="Dynastie Royale Dê-Mêsse" class="h-32 w-auto" />
+              <img :src="logo" alt="Dynastie Royale Dê-Mèssè" class="h-32 w-auto" />
             </div>
             <p class="text-center font-Cormorant text-2xl text-app-primary italic leading-snug">
               « Au cœur de notre héritage, réside la grandeur. »
             </p>
             <div class="w-16 h-0.5 bg-app-accent mx-auto mt-6"></div>
-            <p class="text-center text-xs uppercase tracking-[0.3em] text-app-muted mt-4">Dê-Mêsse · 1752 — 1757</p>
+            <p class="text-center text-xs uppercase tracking-[0.3em] text-app-muted mt-4">Dê-Mèssè · 1752 — 1757</p>
           </div>
         </div>
 
@@ -107,13 +107,13 @@ const documents = [
           </h2>
           <div class="w-20 h-1 bg-app-accent mb-8"></div>
           <p class="text-app-dark/80 text-lg leading-relaxed mb-6">
-            La <strong class="text-app-primary">Dynastie Royale Dê-Mêsse</strong> œuvre à la préservation
+            La <strong class="text-app-primary">Dynastie Royale Dê-Mèssè</strong> œuvre à la préservation
             et à la valorisation de l'héritage historique et culturel du Royaume de Porto-Novo (Hogbonou)
             et des grandes lignées royales du Bénin.
           </p>
           <p class="text-app-muted leading-relaxed mb-8">
             Depuis Tê Agbanlin, fondateur du royaume au 17ᵉ siècle, dix-huit rois lui ont succédés jusqu'à
-          la colonisation. Dê-Mêsse, le fondateur de la dynastie, a eu des enfants qui ont formé les collectivités et branches de la dynastie (Dê-Ayikpe, Dê-Tognon, Dê-Mikpon...).
+          la colonisation. Dê-Mèssè, le fondateur de la dynastie, a eu des enfants qui ont formé les collectivités et branches de la dynastie (Dê-Ayikpe, Dê-Tognon, Dê-Mikpon...).
           De génération en génération, chaque collectivité a transmis cette mémoire que nous entretenons aujourd'hui pour les générations futures.
           </p>
           <router-link
@@ -134,8 +134,8 @@ const documents = [
     <div class="max-w-7xl mx-auto px-4 lg:px-8">
       <SectionTitle
         eyebrow="Les Collectivités"
-        title="Les Branches de Dê-Mêsse"
-        description="Dê-Mêsse est le fondateur de la dynastie. Ses enfants ont formé les 11 collectivités et branches qui perpétuent son héritage."
+        title="Les Branches de Dê-Mèssè"
+        description="Dê-Mèssè est le fondateur de la dynastie. Ses enfants ont formé les 11 collectivités et branches qui perpétuent son héritage."
       />
       <div class="grid md:grid-cols-3 gap-8" data-aos="fade-up" data-aos-duration="900">
         <LigneeCard

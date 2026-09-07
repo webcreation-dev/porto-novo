@@ -3,7 +3,7 @@ import imgAbomey from '@/assets/images/recits/abomey.jpg'
 import imgAllada from '@/assets/images/recits/allada.jpg'
 import imgKetou from '@/assets/images/recits/ketou.png'
 import imgTeAgbanlin from '@/assets/images/recits/te-agbanlin.jpg'
-import imgHakpon from '@/assets/images/recits/hakpon-3.jpg'
+import imgHiakpon from '@/assets/images/recits/hiakpon-3.jpg'
 
 // [TODO contenu client] Liste des articles publiés. À remplacer par des contenus réels.
 export const articles = [
@@ -41,7 +41,7 @@ export const articles = [
     slug: 'hommage-roi-dê-kpodagba',
     title: 'Hommage au Roi régnant Dê-Kpodagba Alômanwle Lokpon 8',
     excerpt: 'Une cérémonie d’hommage organisée pour honorer le souverain qui occupe aujourd’hui le trône de Tê Agbanlin.',
-    image: imgHakpon,
+    image: imgHiakpon,
     date: '2026-02-18',
     category: 'Cérémonie',
     author: 'Comité éditorial',

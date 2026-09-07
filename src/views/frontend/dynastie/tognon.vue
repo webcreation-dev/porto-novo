@@ -9,7 +9,7 @@ const story = [
 ]
 
 const figures = [
-  { name: 'Dê Tognon',         period: 'Lignée historique', role: 'Souverain de Hogbonou', description: 'Roi inscrit dans la succession des dix-huit souverains du royaume.' },
+  { name: 'Dê-Tognon',         period: 'Lignée historique', role: 'Souverain de Hogbonou', description: 'Roi inscrit dans la succession des dix-huit souverains du royaume.' },
   { name: 'Lignée Dê-Tognon',  period: 'XVIIᵉ — XIXᵉ s.',   role: 'Branche royale',        description: 'Une branche majeure de la famille royale de Hogbonou.' },
 ]
 

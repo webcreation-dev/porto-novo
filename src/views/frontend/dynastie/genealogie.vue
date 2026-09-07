@@ -4,7 +4,7 @@ import imgTeAgbanlin from '@/assets/images/recits/te-agbanlin.jpg'
 
 const story = [
   'La généalogie de la dynastie Dê-Mèssè s’enracine dans la fondation du royaume de Hogbonou par Tê Agbanlin au XVIIᵉ siècle. Fils du Roi Kokpon Adjahoutô d’Allada, Tê Agbanlin quitta Tado avec sa famille et ses partisans pour fonder ce nouveau royaume en pays Aïzô.',
-  'Dix-huit rois lui ont succédé jusqu’à la colonisation : Dê Hakpon — Dê Lokpon — Dê Houdé — Dê Mèssè — Dê Houyi — Dê Gbégnon — Dê Ayikpé — Dê Ayaton — Dê Houffon — Dê Adjohan — Dê Toyi — Dê Houézé — Dê Tognon — Dê Mêyi — Dê Sodji — Dê Mikpon — Dê Mèssi — Dê Toffa.',
+  'Dix-huit rois lui ont succédé jusqu’à la colonisation : Dê-Hiakpon — Dê-Lokpon — Dê-Houdé — Dê-Mèssè — Dê-Houyi — Dê-Gbégnon — Dê-Ayikpé — Dê-Ayaton — Dê-Houffon — Dê-Adjohan — Dê-Toyi — Dê-Houézé — Dê-Tognon — Dê-Mêyi — Dê-Sodji — Dê-Mikpon — Dê-Mèssi — Dê-Toffa.',
   'Aujourd’hui encore, le trône de Tê Agbanlin est occupé par le Roi Dê-Kpodagba Alômanwle Lokpon 8. L’organisation administrative du royaume reste assurée par les ministres traditionnels : Migan, Gogan, Mewou, Akplogan, Awatagan.',
   '[TODO contenu client] Le détail des filiations, des règnes et des faits marquants de chaque souverain pourra être enrichi avec l’apport des dépositaires de la mémoire dynastique.',
 ]

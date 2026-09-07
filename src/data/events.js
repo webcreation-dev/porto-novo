@@ -3,7 +3,7 @@ import imgAbomey from '@/assets/images/recits/abomey.jpg'
 import imgAllada from '@/assets/images/recits/allada.jpg'
 import imgKetou from '@/assets/images/recits/ketou.png'
 import imgTeAgbanlin from '@/assets/images/recits/te-agbanlin.jpg'
-import imgHakpon from '@/assets/images/recits/hakpon-3.jpg'
+import imgHiakpon from '@/assets/images/recits/hiakpon-3.jpg'
 
 // [TODO contenu client] Liste des événements à venir et passés. À remplacer par des contenus réels.
 export const events = [
@@ -76,9 +76,9 @@ export const events = [
   },
   {
     slug: 'commemoration-roi-de-toffa-mars-2026',
-    title: 'Commémoration du Roi Dê Toffa',
+    title: 'Commémoration du Roi Dê-Toffa',
     excerpt: 'Hommage au dernier roi de Hogbonou avant la colonisation, dans la lignée des dix-huit souverains.',
-    image: imgHakpon,
+    image: imgHiakpon,
     date: '2026-03-22',
     time: '11h00',
     location: 'Musée Honmé, Porto-Novo',
@@ -86,7 +86,7 @@ export const events = [
     status: 'past',
     audience: 'Communauté & public',
     content: [
-      'Cérémonie d’hommage au Roi Dê Toffa, dix-huitième et dernier souverain de Hogbonou avant la période coloniale.',
+      'Cérémonie d’hommage au Roi Dê-Toffa, dix-huitième et dernier souverain de Hogbonou avant la période coloniale.',
       'L’événement a réuni les membres du Conseil des Sages, des historiens, et un public nombreux venu rendre hommage à cette figure majeure de l’histoire du royaume.',
     ],
   },

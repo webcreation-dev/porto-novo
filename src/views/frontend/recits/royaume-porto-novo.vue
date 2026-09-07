@@ -35,7 +35,7 @@ const documents = [
     :story="story"
     :key-facts="keyFacts"
     :documents="documents"
-    :prev="{ label: 'Dê-Kpotozounme Hakpon 3', to: { name: 'frontend.recits.de-hakpon' } }"
+    :prev="{ label: 'Dê-Kpotozounme Hiakpon 3', to: { name: 'frontend.recits.de-hiakpon' } }"
     :next="{ label: 'Les Rois de Porto-Novo',  to: { name: 'frontend.recits.te-agbanlin' } }"
   />
 </template>

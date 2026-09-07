@@ -2,7 +2,7 @@
 import DocumentPage from '@/components/frontend/DocumentPage.vue'
 
 const intro = [
-  'La succession des Rois de Porto-Novo est l’un des sujets les plus structurants de l’histoire dynastique. Depuis Tê Agbanlin, fondateur du royaume de Hogbonou, dix-huit rois se sont succédé jusqu’à la colonisation : Dê Hakpon — Dê Lokpon — Dê Houdé — Dê Mèssè — Dê Houyi — Dê Gbégnon — Dê Ayikpé — Dê Ayaton — Dê Houffon — Dê Adjohan — Dê Toyi — Dê Houézé — Dê Tognon — Dê Mêyi — Dê Sodji — Dê Mikpon — Dê Mèssi — Dê Toffa.',
+  'La succession des Rois de Porto-Novo est l’un des sujets les plus structurants de l’histoire dynastique. Depuis Tê Agbanlin, fondateur du royaume de Hogbonou, dix-huit rois se sont succédé jusqu’à la colonisation : Dê-Hiakpon — Dê-Lokpon — Dê-Houdé — Dê-Mèssè — Dê-Houyi — Dê-Gbégnon — Dê-Ayikpé — Dê-Ayaton — Dê-Houffon — Dê-Adjohan — Dê-Toyi — Dê-Houézé — Dê-Tognon — Dê-Mêyi — Dê-Sodji — Dê-Mikpon — Dê-Mèssi — Dê-Toffa.',
   'Le Rapport d’élection du Roi de Porto-Novo documente les modalités de la désignation royale et son inscription dans la tradition séculaire. Il témoigne de la rigueur des procédures coutumières et du rôle des sages dans la continuité dynastique.',
   'Aujourd’hui encore, le trône de Tê Agbanlin est occupé par le Roi Dê-Kpodagba Alômanwle Lokpon 8.',
 ]

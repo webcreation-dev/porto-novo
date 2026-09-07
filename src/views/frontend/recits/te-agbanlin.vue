@@ -40,6 +40,6 @@ const documents = [
     :key-facts="keyFacts"
     :figures="figures"
     :documents="documents"
-    :next="{ label: 'Dê-Kpotozounme Hakpon 3', to: { name: 'frontend.recits.de-hakpon' } }"
+    :next="{ label: 'Dê-Kpotozounme Hiakpon 3', to: { name: 'frontend.recits.de-hiakpon' } }"
   />
 </template>

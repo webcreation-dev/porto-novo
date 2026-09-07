@@ -1,17 +1,17 @@
 <script setup>
 import RecitPage from '@/components/frontend/RecitPage.vue'
-import imgHakpon from '@/assets/images/recits/hakpon-3.jpg'
+import imgHiakpon from '@/assets/images/recits/hiakpon-3.jpg'
 
 const story = [
-  'Dê-Kpotozounme Hakpon 3 est l’une des figures marquantes de la dynastie de Hogbonou. Son règne s’inscrit dans la longue chaîne des dix-huit rois qui se sont succédé sur le trône de Tê Agbanlin.',
+  'Dê-Kpotozounme Hiakpon 3 est l’une des figures marquantes de la dynastie de Hogbonou. Son règne s’inscrit dans la longue chaîne des dix-huit rois qui se sont succédé sur le trône de Tê Agbanlin.',
   'Comme ses prédécesseurs, il a contribué à perpétuer les institutions traditionnelles du royaume — appuyé par le conseil des ministres : Migan, Gogan, Mewou, Akplogan, Awatagan — garants de la continuité administrative.',
-  '[TODO contenu client] Les éléments biographiques détaillés, les hauts faits du règne de Dê-Kpotozounme Hakpon 3 et son apport à la dynastie pourront être enrichis ici à partir des archives et des récits oraux conservés par la dynastie.',
+  '[TODO contenu client] Les éléments biographiques détaillés, les hauts faits du règne de Dê-Kpotozounme Hiakpon 3 et son apport à la dynastie pourront être enrichis ici à partir des archives et des récits oraux conservés par la dynastie.',
 ]
 
 const keyFacts = [
   { icon: 'mdi:crown',         label: 'Statut',       value: 'Roi de Hogbonou' },
   { icon: 'mdi:account-group', label: 'Lignée',       value: 'Dê-Kpotozounme' },
-  { icon: 'mdi:numeric-3-box', label: 'Rang',         value: 'Hakpon 3' },
+  { icon: 'mdi:numeric-3-box', label: 'Rang',         value: 'Hiakpon 3' },
   { icon: 'mdi:scroll',        label: 'Dynastie',     value: 'Trône de Tê Agbanlin' },
 ]
 
@@ -23,12 +23,12 @@ const documents = [
 
 <template>
   <RecitPage
-    title="Dê-Kpotozounme Hakpon 3"
+    title="Dê-Kpotozounme Hiakpon 3"
     subtitle="Souverain de Hogbonou"
     category="Personnage"
     intro="Une figure marquante du trône de Tê Agbanlin."
-    :image="imgHakpon"
-    image-alt="Dê-Kpotozounme Hakpon 3"
+    :image="imgHiakpon"
+    image-alt="Dê-Kpotozounme Hiakpon 3"
     :story="story"
     :key-facts="keyFacts"
     :documents="documents"

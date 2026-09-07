@@ -10,8 +10,8 @@ const story = [
 
 const figures = [
   { name: 'Dê-Mèssè',                            period: '1752 — 1757',        role: 'Roi de Hogbonou',  description: 'Souverain dont le nom est aujourd’hui porté par la dynastie.' },
-  { name: 'Dê Hakpon, Dê Lokpon, Dê Houdé',      period: 'Avant Dê-Mèssè',     role: 'Prédécesseurs',     description: 'Trois rois qui ont précédé Dê-Mèssè dans la succession des souverains de Hogbonou.' },
-  { name: 'Dê Houyi, Dê Gbégnon, Dê Ayikpé',     period: 'Après Dê-Mèssè',     role: 'Successeurs',       description: 'Souverains ayant succédé à Dê-Mèssè dans la longue lignée royale de Porto-Novo.' },
+  { name: 'Dê-Hiakpon, Dê-Lokpon, Dê-Houdé',      period: 'Avant Dê-Mèssè',     role: 'Prédécesseurs',     description: 'Trois rois qui ont précédé Dê-Mèssè dans la succession des souverains de Hogbonou.' },
+  { name: 'Dê-Houyi, Dê-Gbégnon, Dê-Ayikpé',     period: 'Après Dê-Mèssè',     role: 'Successeurs',       description: 'Souverains ayant succédé à Dê-Mèssè dans la longue lignée royale de Porto-Novo.' },
 ]
 
 const documents = [

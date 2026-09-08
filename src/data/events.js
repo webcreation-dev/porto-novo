@@ -3,7 +3,7 @@ import imgAbomey from '@/assets/images/recits/abomey.jpg'
 import imgAllada from '@/assets/images/recits/allada.jpg'
 import imgKetou from '@/assets/images/recits/ketou.png'
 import imgTeAgbanlin from '@/assets/images/recits/te-agbanlin.jpg'
-import imgHiakpon from '@/assets/images/recits/hiakpon-3.jpg'
+import imgHiakpon from '@/assets/images/recits/hakpon-3.jpg'
 
 // [TODO contenu client] Liste des événements à venir et passés. À remplacer par des contenus réels.
 export const events = [

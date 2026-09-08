@@ -80,6 +80,7 @@ const diaspora = [
     continent: 'Amérique',
     countries: [
       { name: 'frontend.diaspora.canada',       label: 'Canada',         flag: '🇨🇦' },
+      { name: 'frontend.diaspora.usa',          label: 'États-Unis',     flag: '🇺🇸' },
     ]
   },
   {

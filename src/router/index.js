@@ -74,6 +74,7 @@ const router = createRouter({
 
         // Diaspora
         { path: 'diaspora/canada', name: 'frontend.diaspora.canada', meta: { title: 'Canada' }, component: () => import('@/views/frontend/diaspora/canada.vue') },
+        { path: 'diaspora/usa', name: 'frontend.diaspora.usa', meta: { title: 'États-Unis' }, component: () => import('@/views/frontend/diaspora/usa.vue') },
         { path: 'diaspora/congo', name: 'frontend.diaspora.congo', meta: { title: 'Congo' }, component: () => import('@/views/frontend/diaspora/congo.vue') },
         { path: 'diaspora/cote-divoire', name: 'frontend.diaspora.civ', meta: { title: 'Cote D\'ivoire' }, component: () => import('@/views/frontend/diaspora/cote-divoire.vue') },
         { path: 'diaspora/france', name: 'frontend.diaspora.france', meta: { title: 'France' }, component: () => import('@/views/frontend/diaspora/france.vue') },

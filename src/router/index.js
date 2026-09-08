@@ -33,7 +33,7 @@ const router = createRouter({
 
         // Histoires & Récits
         { path: 'recits/te-agbanlin', name: 'frontend.recits.te-agbanlin', meta: { title: 'Tê Agbanlin' }, component: () => import('@/views/frontend/recits/te-agbanlin.vue') },
-        { path: 'recits/de-hiakpon', name: 'frontend.recits.de-hiakpon', meta: { title: 'Dê-Hiakpon' }, component: () => import('@/views/frontend/recits/de-hiakpon.vue') },
+        { path: 'recits/de-hiakpon', name: 'frontend.recits.de-hiakpon', meta: { title: 'Dê-Hiakpon' }, component: () => import('@/views/frontend/recits/hakpon-3.vue') },
         { path: 'recits/lokpon', name: 'frontend.recits.lokpon', meta: { title: 'Dê-Lokpon' }, component: () => import('@/views/frontend/recits/lokpon.vue') },
         { path: 'recits/houde', name: 'frontend.recits.houde', meta: { title: 'Dê-Houde' }, component: () => import('@/views/frontend/recits/houde.vue') },
         { path: 'recits/houyi', name: 'frontend.recits.houyi', meta: { title: 'Dê-Houyi' }, component: () => import('@/views/frontend/recits/houyi.vue') },

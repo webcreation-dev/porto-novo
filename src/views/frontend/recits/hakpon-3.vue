@@ -1,6 +1,6 @@
 <script setup>
 import RecitPage from '@/components/frontend/RecitPage.vue'
-import imgHiakpon from '@/assets/images/recits/hiakpon-3.jpg'
+import imgHiakpon from '@/assets/images/recits/hakpon-3.jpg'
 
 const story = [
   'Dê-Kpotozounme Hiakpon 3 est l’une des figures marquantes de la dynastie de Hogbonou. Son règne s’inscrit dans la longue chaîne des dix-huit rois qui se sont succédé sur le trône de Tê Agbanlin.',

@@ -1,1 +1,0 @@
-import{_ as o}from"./PagePlaceholder-DNHwZqEm.js";import{z as r,o as e}from"./index-Dkn99mAC.js";import"./PageBanner-COp74a9K.js";import"./royaume-porto-novo-CYospKeW.js";const s={__name:"le-benin",setup(t){return(_,a)=>(e(),r(o))}};export{s as default};

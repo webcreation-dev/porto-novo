@@ -1,1 +1,0 @@
-import{_ as o}from"./PagePlaceholder-DNHwZqEm.js";import{z as r,o as a}from"./index-Dkn99mAC.js";import"./PageBanner-COp74a9K.js";import"./royaume-porto-novo-CYospKeW.js";const n={__name:"avessan",setup(t){return(e,s)=>(a(),r(o))}};export{n as default};

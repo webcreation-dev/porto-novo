@@ -1,1 +1,0 @@
-import{_ as o}from"./PagePlaceholder-Byg23rKS.js";import{h as r,o as e}from"./index-BM75__90.js";import"./PageBanner-BweGJzX2.js";import"./royaume-porto-novo-CYospKeW.js";const n={__name:"proverbes-goun",setup(t){return(_,a)=>(e(),r(o))}};export{n as default};

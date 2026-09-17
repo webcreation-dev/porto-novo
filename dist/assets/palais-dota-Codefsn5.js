@@ -1,1 +1,0 @@
-import{_ as o}from"./PagePlaceholder-Byg23rKS.js";import{h as a,o as r}from"./index-BM75__90.js";import"./PageBanner-BweGJzX2.js";import"./royaume-porto-novo-CYospKeW.js";const i={__name:"palais-dota",setup(t){return(_,e)=>(r(),a(o))}};export{i as default};

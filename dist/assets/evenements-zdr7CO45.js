@@ -1,0 +1,1 @@
+import{_ as e}from"./PagePlaceholder-Cx8vQNm1.js";import{h as o,o as r}from"./index-B4qacGdr.js";import"./PageBanner-BL4uPQxB.js";import"./royaume-porto-novo-CYospKeW.js";const p={__name:"evenements",setup(t){return(_,a)=>(r(),o(e))}};export{p as default};

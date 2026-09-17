@@ -1,0 +1,1 @@
+import{_ as o}from"./PagePlaceholder-Cx8vQNm1.js";import{h as r,o as a}from"./index-B4qacGdr.js";import"./PageBanner-BL4uPQxB.js";import"./royaume-porto-novo-CYospKeW.js";const n={__name:"kpodagba",setup(t){return(_,e)=>(a(),r(o))}};export{n as default};

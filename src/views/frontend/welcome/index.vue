@@ -113,7 +113,7 @@ const documents = [
           </p>
           <p class="text-app-muted leading-relaxed mb-8">
             Depuis Tê Agbanlin, fondateur du royaume au 17ᵉ siècle, dix-huit rois lui ont succédés jusqu'à
-          la colonisation. Dê-Mèssè, le fondateur de la dynastie, a eu des enfants qui ont formé les collectivités et branches de la dynastie (Dê-Ayikpe, Dê-Tognon, Dê-Mikpon...).
+          la colonisation. Dê-Mèssè, le fondateur de la dynastie, a eu des enfants qui ont formé les collectivités et branches de la dynastie.
           De génération en génération, chaque collectivité a transmis cette mémoire que nous entretenons aujourd'hui pour les générations futures.
           </p>
           <router-link

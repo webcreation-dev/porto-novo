@@ -7,8 +7,8 @@ import b1 from '@/assets/images/old/b1.jpg'
 const documents = [
   { title: 'Accord de succession des rois de porto novo', year: 'Historique', pdfUrl: '/archives/accord_succession.pdf' },
   { title: 'Assemblée générale de 1973', year: '1973', pdfUrl: '/archives/ag_1973.pdf' },
-  { title: 'Message du Xwé Douto Afodji', year: 'Historique', pdfUrl: '/archives/lettre_affodji.pdf' },
-  { title: 'Lettre des Xwé Douto', year: 'Historique', pdfUrl: '/archives/archive_dynastie.pdf' },
+  { title: 'Message du Xwédouto Afodji', year: 'Historique', pdfUrl: '/archives/lettre_affodji.pdf' },
+  { title: 'Lettre des Xwédouto', year: 'Historique', pdfUrl: '/archives/archive_dynastie.pdf' },
   { title: 'Conseil des sages de 1998', year: '1998', pdfUrl: '/archives/conseil_sages.pdf' },
   { title: 'La loi sur la chefferie traditionnelle', year: 'Juridique', pdfUrl: '/archives/loi_chefferie.pdf' },
   { title: 'Document de la royauté Tê Agbanlin', year: 'Fondation', pdfUrl: '/archives/archive_royaute.pdf' },

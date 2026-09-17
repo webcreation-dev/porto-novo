@@ -1,1 +1,0 @@
-import{_ as o}from"./PagePlaceholder-Byg23rKS.js";import{h as r,o as a}from"./index-BM75__90.js";import"./PageBanner-BweGJzX2.js";import"./royaume-porto-novo-CYospKeW.js";const n={__name:"ahouanhode",setup(t){return(e,_)=>(a(),r(o))}};export{n as default};

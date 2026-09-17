@@ -1,1 +1,0 @@
-import{_ as o}from"./PagePlaceholder-Byg23rKS.js";import{h as r,o as t}from"./index-BM75__90.js";import"./PageBanner-BweGJzX2.js";import"./royaume-porto-novo-CYospKeW.js";const i={__name:"histoire-qa",setup(a){return(e,_)=>(t(),r(o))}};export{i as default};

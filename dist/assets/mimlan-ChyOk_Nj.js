@@ -1,0 +1,1 @@
+import{_ as o}from"./PagePlaceholder-Byg23rKS.js";import{h as r,o as t}from"./index-BM75__90.js";import"./PageBanner-BweGJzX2.js";import"./royaume-porto-novo-CYospKeW.js";const n={__name:"mimlan",setup(a){return(m,_)=>(t(),r(o))}};export{n as default};

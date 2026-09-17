@@ -1,0 +1,1 @@
+import{_ as o}from"./PagePlaceholder-Byg23rKS.js";import{h as r,o as e}from"./index-BM75__90.js";import"./PageBanner-BweGJzX2.js";import"./royaume-porto-novo-CYospKeW.js";const i={__name:"bibliotheque-royale",setup(t){return(a,_)=>(e(),r(o))}};export{i as default};

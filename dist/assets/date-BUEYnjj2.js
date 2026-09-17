@@ -1,0 +1,1 @@
+const e=new Intl.DateTimeFormat("fr-FR",{day:"numeric",month:"long",year:"numeric"});function a(t){return t?e.format(new Date(t)):""}function n(t){if(!t)return{day:"",month:"",year:""};const r=new Date(t);return{day:String(r.getDate()).padStart(2,"0"),month:new Intl.DateTimeFormat("fr-FR",{month:"short"}).format(r).replace(".",""),year:r.getFullYear()}}export{a,n as f};

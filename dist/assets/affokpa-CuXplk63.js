@@ -1,0 +1,1 @@
+import{_ as o}from"./PagePlaceholder-4fnUWWMw.js";import{h as r,o as a}from"./index-a7WEz3Q8.js";import"./PageBanner-CqzJqYGq.js";import"./royaume-porto-novo-CYospKeW.js";const f={__name:"affokpa",setup(t){return(_,e)=>(a(),r(o))}};export{f as default};

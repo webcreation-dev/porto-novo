@@ -1,0 +1,1 @@
+import{_ as o}from"./PagePlaceholder-4fnUWWMw.js";import{h as r,o as t}from"./index-a7WEz3Q8.js";import"./PageBanner-CqzJqYGq.js";import"./royaume-porto-novo-CYospKeW.js";const m={__name:"sounwin-akponi",setup(a){return(_,e)=>(t(),r(o))}};export{m as default};

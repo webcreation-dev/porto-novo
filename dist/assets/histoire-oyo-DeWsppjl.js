@@ -1,0 +1,1 @@
+import{_ as o}from"./PagePlaceholder-4fnUWWMw.js";import{h as r,o as t}from"./index-a7WEz3Q8.js";import"./PageBanner-CqzJqYGq.js";import"./royaume-porto-novo-CYospKeW.js";const i={__name:"histoire-oyo",setup(e){return(_,a)=>(t(),r(o))}};export{i as default};

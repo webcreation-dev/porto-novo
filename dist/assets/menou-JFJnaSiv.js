@@ -1,1 +1,0 @@
-import{_ as o}from"./PagePlaceholder-Cx8vQNm1.js";import{h as r,o as t}from"./index-B4qacGdr.js";import"./PageBanner-BL4uPQxB.js";import"./royaume-porto-novo-CYospKeW.js";const n={__name:"menou",setup(e){return(_,a)=>(t(),r(o))}};export{n as default};

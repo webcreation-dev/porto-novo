@@ -1,0 +1,1 @@
+import{_ as r}from"./PagePlaceholder-4fnUWWMw.js";import{h as o,o as t}from"./index-a7WEz3Q8.js";import"./PageBanner-CqzJqYGq.js";import"./royaume-porto-novo-CYospKeW.js";const n={__name:"autres",setup(a){return(e,_)=>(t(),o(r))}};export{n as default};

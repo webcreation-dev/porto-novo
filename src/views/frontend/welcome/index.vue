@@ -87,7 +87,7 @@ const documents = [
       <div class="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
 
         <div class="relative" data-aos="fade-right" data-aos-duration="800">
-          <div class="absolute -inset-4 bg-app-accent/20 -rotate-2"></div>
+          <div class="absolute -inset-4 bg-app-accent/20 -rotate-6"></div>
           <div class="relative bg-white p-10 lg:p-16 shadow-xl">
             <div class="flex items-center justify-center mb-6">
               <img :src="logo" alt="Dynastie Royale Dê-Mèssè" class="h-32 w-auto" />
